@@ -1,0 +1,205 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: var(--ground);
+      font-family: "Inter", sans-serif;
+      color: var(--ink);
+    }
+    /* The option bar mirrors the app's own Chat / Dashboard toggle. */
+    #opt-bar {
+      position: absolute;
+      left: 296px;
+      top: 44px;
+      width: 1328px;
+      height: 66px;
+      padding: 7px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: inset 0 0 0 1px #dfd2e9;
+    }
+    #opt-indicator {
+      position: absolute;
+      left: 7px;
+      top: 7px;
+      width: 262px;
+      height: 52px;
+      border-radius: 999px;
+      background: #ffffff;
+      box-shadow:
+        0 0 0 1px #e5d9ef,
+        0 6px 16px rgba(53, 44, 72, 0.1);
+    }
+    .opt-pills {
+      position: relative;
+      display: flex;
+      height: 52px;
+    }
+    .opt-pill {
+      width: 262.8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    #opt-window {
+      position: absolute;
+      left: 240px;
+      top: 146px;
+      width: 1440px;
+      height: 810px;
+      border-radius: 22px;
+      overflow: hidden;
+      background: #f0e9f8;
+      box-shadow:
+        0 0 0 1px #dfd2e9,
+        0 40px 90px rgba(53, 44, 72, 0.16);
+    }
+    #opt-cam {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    .opt-shot {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    .opt-shot img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    /* Covers the route strip so it can draw hop by hop. Same fill as the route card. */
+    #opt-veil {
+      position: absolute;
+      left: 846px;
+      top: 498px;
+      width: 610px;
+      height: 74px;
+      background: #e9ddf8;
+    }
+    #opt-cursor {
+      position: absolute;
+      opacity: 0;
+      left: 0;
+      top: 0;
+      width: 58px;
+      height: 58px;
+    }
+  </style>
+  <div id="root" data-composition-id="options" data-width="1920" data-height="1080">
+    <div id="opt-window" data-layout-allow-overflow>
+      <div id="opt-cam" data-layout-allow-overflow>
+        <div class="opt-shot" id="opt-s-tm"><img src="assets/ui/tm-tag.png" alt="TM tag screen" /></div>
+        <div class="opt-shot" id="opt-s-home"><img src="assets/ui/chat-home.png" alt="Chat home" /></div>
+        <div class="opt-shot" id="opt-s-route">
+          <img src="assets/ui/chat-route.png" alt="Route answer in chat" />
+          <div id="opt-veil"></div>
+        </div>
+        <div class="opt-shot" id="opt-s-brain"><img src="assets/ui/network-brain.png" alt="Network brain" /></div>
+        <div class="opt-shot" id="opt-s-creative"><img src="assets/ui/chat-creative.png" alt="Creative outreach ideas" /></div>
+        <div class="opt-shot" id="opt-s-dash"><img src="assets/ui/dashboard.png" alt="Dashboard" /></div>
+      </div>
+    </div>
+
+    <div id="opt-bar">
+      <div id="opt-indicator"></div>
+      <div class="opt-pills">
+        <div class="opt-pill" id="opt-p0">TM tag</div>
+        <div class="opt-pill" id="opt-p1">Chat</div>
+        <div class="opt-pill" id="opt-p2">Network brain</div>
+        <div class="opt-pill" id="opt-p3">Creative outreach</div>
+        <div class="opt-pill" id="opt-p4">Dashboard</div>
+      </div>
+    </div>
+
+    <svg id="opt-cursor" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 2.5 L4 19.5 L8.6 15.4 L11.6 21.8 L14.6 20.4 L11.7 14.2 L18 14.2 Z" fill="#352c48" stroke="#ffffff" stroke-width="1.4" stroke-linejoin="round" />
+    </svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const PILL = 262.8;
+    const shots = ["#opt-s-tm", "#opt-s-home", "#opt-s-route", "#opt-s-brain", "#opt-s-creative", "#opt-s-dash"];
+    // Camera: put point (cx, cy) of the 1920x1080 screen at the window centre at scale s.
+    const cam = (cx, cy, s) => ({ x: 720 - s * cx, y: 405 - s * cy, scale: s });
+    const FULL = cam(960, 540, 0.75);
+
+    tl.set("#opt-cam", { transformOrigin: "0 0", ...FULL }, 0);
+    tl.set(shots, { opacity: 0 }, 0);
+    tl.set("#opt-s-tm", { opacity: 1 }, 0);
+    tl.set("#opt-veil", { clipPath: "inset(0px 0px 0px 0%)" }, 0);
+    tl.set("#opt-cursor", { x: 1560, y: 1120 }, 0);
+    tl.set(".opt-pill", { color: "#6b5c7c" }, 0);
+    tl.set("#opt-p0", { color: "#352c48" }, 0);
+
+    // Enter: bar and window land; the window arrives slow.
+    tl.fromTo("#opt-bar", { y: -40, opacity: 0, filter: "blur(8px)" }, { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.45, ease: "expo.out" }, 0);
+    tl.fromTo("#opt-window", { y: 60, scale: 0.95, opacity: 0, filter: "blur(10px)" }, { y: 0, scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.6, ease: "expo.out" }, 0.05);
+
+    // Move the bar's highlight to option i and swap the screen (blur swap on one stage).
+    const select = (i, at) => {
+      tl.to("#opt-indicator", { x: i * PILL, duration: 0.38, ease: "power3.inOut" }, at);
+      tl.to(".opt-pill", { color: "#6b5c7c", duration: 0.2, ease: "none" }, at + 0.1);
+      tl.to("#opt-p" + i, { color: "#352c48", duration: 0.2, ease: "none" }, at + 0.1);
+    };
+    const swap = (from, to, at) => {
+      tl.to(from, { opacity: 0, filter: "blur(8px)", duration: 0.16, ease: "power2.in" }, at);
+      tl.fromTo(to, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power2.out" }, at + 0.06);
+    };
+
+    // 1. TM tag: push in on the tag itself.
+    tl.to("#opt-cam", { ...cam(430, 500, 1.75), duration: 0.6, ease: "power2.inOut" }, 0.35);
+
+    // 2. Chat: back to the whole workspace, then the cursor asks the question.
+    select(1, 1.7);
+    tl.to("#opt-cam", { ...FULL, duration: 0.42, ease: "power2.inOut" }, 1.7);
+    swap("#opt-s-tm", "#opt-s-home", 1.78);
+    tl.to("#opt-cursor", { x: 1046, y: 566, opacity: 1, duration: 0.45, ease: "power3.out" }, 1.95);
+    tl.to("#opt-cursor", { scale: 0.84, duration: 0.06, ease: "power2.in", transformOrigin: "20% 15%" }, 2.46);
+    tl.to("#opt-cursor", { scale: 1, duration: 0.12, ease: "power2.out" }, 2.52);
+    // The click causes the answer on the same frame; it comes in slightly large and settles.
+    tl.set("#opt-s-home", { opacity: 0 }, 2.52);
+    tl.set("#opt-s-route", { opacity: 1, filter: "blur(0px)" }, 2.52);
+    tl.fromTo("#opt-cam", cam(960, 540, 0.79), { ...cam(1104, 520, 1.6), duration: 0.62, ease: "power2.inOut" }, 2.52);
+    tl.to("#opt-cursor", { opacity: 0, duration: 0.15, ease: "none" }, 2.6);
+    // ...and the route draws hop by hop, on the words.
+    tl.to("#opt-veil", { clipPath: "inset(0px 0px 0px 31%)", duration: 0.2, ease: "power2.out" }, 4.06);
+    tl.to("#opt-veil", { clipPath: "inset(0px 0px 0px 62%)", duration: 0.2, ease: "power2.out" }, 4.42);
+    tl.to("#opt-veil", { clipPath: "inset(0px 0px 0px 100%)", duration: 0.2, ease: "power2.out" }, 4.62);
+
+    // 3. Network brain: the same route, in the full map's path panel.
+    select(2, 4.95);
+    swap("#opt-s-route", "#opt-s-brain", 5.0);
+    tl.to("#opt-cam", { ...cam(1440, 640, 1.5), duration: 0.45, ease: "power2.inOut" }, 4.95);
+
+    // 4. Creative outreach: two ideas that get replies.
+    select(3, 5.95);
+    swap("#opt-s-brain", "#opt-s-creative", 6.0);
+    tl.to("#opt-cam", { ...cam(1104, 478, 1.42), duration: 0.45, ease: "power2.inOut" }, 5.95);
+
+    // 5. Dashboard: the network at a glance.
+    select(4, 7.5);
+    swap("#opt-s-creative", "#opt-s-dash", 7.55);
+    tl.to("#opt-cam", { ...FULL, duration: 0.45, ease: "power2.inOut" }, 7.5);
+
+    // Exit: zoom through the window into the end card.
+    tl.to("#opt-window", { scale: 1.18, opacity: 0, filter: "blur(16px)", duration: 0.3, ease: "power3.in" }, 8.48);
+    tl.to("#opt-bar", { y: -60, opacity: 0, filter: "blur(8px)", duration: 0.24, ease: "power3.in" }, 8.48);
+
+    window.__timelines["options"] = tl;
+  </script>
+</template>

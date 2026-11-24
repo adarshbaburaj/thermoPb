@@ -1,0 +1,47 @@
+[
+  {
+    "agent": "Planner",
+    "role": "planning",
+    "text": "@Builder Find platform engineering leaders and technical buyers with a timely, sourced reason to meet.",
+    "ts": "2026-11-24T18:00:00Z",
+    "tokens": 312,
+    "cost": 0,
+    "is_demo": true
+  },
+  {
+    "agent": "Builder",
+    "role": "discovery",
+    "text": "Loaded 20 leads. Every row links to its source record.",
+    "ts": "2026-11-24T18:00:00Z",
+    "tokens": 628,
+    "cost": 0,
+    "is_demo": true
+  },
+  {
+    "agent": "Builder",
+    "role": "graph",
+    "text": "Mapped Ravi → Elena → Maya. The Ravi–Elena overlap remains INFERRED.",
+    "ts": "2026-11-24T18:00:00Z",
+    "tokens": 241,
+    "cost": 0,
+    "is_demo": true
+  },
+  {
+    "agent": "Reviewer",
+    "role": "review",
+    "text": "Source check ready. Unsupported factual edits will block approval.",
+    "ts": "2026-11-24T18:00:00Z",
+    "tokens": 163,
+    "cost": 0,
+    "is_demo": true
+  },
+  {
+    "agent": "Security",
+    "role": "security",
+    "text": "Nothing goes out without your approval.",
+    "ts": "2026-11-24T18:00:00Z",
+    "tokens": 110,
+    "cost": 0,
+    "is_demo": true
+  }
+]

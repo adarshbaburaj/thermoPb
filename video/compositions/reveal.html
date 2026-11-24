@@ -1,0 +1,117 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: var(--ground);
+      font-family: "Inter", sans-serif;
+      color: var(--ink);
+    }
+    #reveal-lockup {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    #reveal-logo {
+      width: 190px;
+      height: 190px;
+    }
+    #reveal-word {
+      display: flex;
+      align-items: center;
+      font-weight: 900;
+      font-size: 164px;
+      letter-spacing: -0.05em;
+    }
+    #reveal-word > span {
+      display: inline-block;
+    }
+    /* "Pb" as its periodic-table cell: lead, element 82. */
+    #reveal-pb {
+      position: relative;
+      width: 196px;
+      height: 196px;
+      margin-left: 18px;
+      border-radius: 16px;
+      background: var(--accent);
+      box-shadow: inset 0 0 0 5px var(--ink);
+      letter-spacing: 0;
+    }
+    #reveal-pb .pb-num {
+      position: absolute;
+      left: 18px;
+      top: 12px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    #reveal-pb .pb-mass {
+      position: absolute;
+      right: 18px;
+      top: 14px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    #reveal-pb .pb-sym {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 34px;
+      text-align: center;
+      font-size: 104px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    #reveal-pb .pb-name {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 14px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    #reveal-meet {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 290px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 48px;
+      letter-spacing: -0.02em;
+      color: var(--muted);
+    }
+  </style>
+  <div id="root" data-composition-id="reveal" data-width="1920" data-height="1080">
+    <div id="reveal-meet">Meet</div>
+    <div id="reveal-lockup">
+      <img id="reveal-logo" src="assets/brand/thermopb-logo.png" alt="thermopb" />
+      <div id="reveal-word">
+        <span>t</span><span>h</span><span>e</span><span>r</span><span>m</span><span>o</span>
+        <div id="reveal-pb">
+          <div class="pb-num">82</div>
+          <div class="pb-mass">207.2</div>
+          <div class="pb-sym">Pb</div>
+          <div class="pb-name">Lead</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#reveal-meet", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.out" }, 0.05);
+    // The mark lands with a premium spring (scale may overshoot; opacity never does).
+    tl.fromTo("#reveal-logo", { scale: 0.4, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.55, ease: "back.out(1.3)" }, 0.12);
+    // "thermo" per letter on the spoken word, then the Pb cell drops into place like a tile.
+    tl.fromTo("#reveal-word > span", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.12, ease: "power3.out", stagger: 0.045 }, 0.45);
+    tl.fromTo("#reveal-pb", { y: -70, opacity: 0, scale: 0.85 }, { y: 0, opacity: 1, scale: 1, duration: 0.42, ease: "back.out(1.4)" }, 0.74);
+    // Leave clean: the lockup rises and blurs away into the options stage.
+    tl.to(["#reveal-lockup", "#reveal-meet"], { y: -90, opacity: 0, filter: "blur(10px)", duration: 0.24, ease: "power3.in" }, 1.56);
+    window.__timelines["reveal"] = tl;
+  </script>
+</template>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expansion-ai-native",
+    "name": "AI-native product teams",
+    "title": "AI-native product teams",
+    "confidence": 0.84,
+    "why": "AI-native product teams share the same agent failure diagnosis workflow.",
+    "evidence": "Product-context heuristic for Tracekit.",
+    "status": "suggested"
+  },
+  {
+    "id": "expansion-internal-platforms",
+    "name": "Internal developer platforms",
+    "title": "Internal developer platforms",
+    "confidence": 0.71,
+    "why": "Internal platform teams need visibility into agent deployments across services.",
+    "evidence": "Product-context heuristic; requires customer validation.",
+    "status": "suggested"
+  }
+]

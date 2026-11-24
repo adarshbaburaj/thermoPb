@@ -1,0 +1,4257 @@
+{
+  "meta": {
+    "app_name": "thermopb",
+    "subtitle": "Route To Meeting",
+    "version": 1,
+    "demo_mode": true,
+    "story": "Tracekit",
+    "generated_for": "2026-11-24",
+    "disclaimer": "Source record.",
+    "founder_id": "person-adarsh-baburaj",
+    "default_target_id": "person-maya-chen"
+  },
+  "product": {
+    "name": "Tracekit",
+    "description": "Tracekit helps platform teams trace AI agent runs, catch failures, and review production changes. We are looking for engineering teams to pilot an agent observability toolkit."
+  },
+  "leads": [
+    {
+      "id": "person-maya-chen",
+      "target_id": "person-maya-chen",
+      "company": "Kindred Labs",
+      "person": "Maya Chen",
+      "title": "VP of Engineering",
+      "fit": 98,
+      "tier": "A",
+      "signal": "Published a platform reliability roadmap for AI agents",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-001",
+      "evidence_id": "signal-001",
+      "source_name": "Public record",
+      "email_status": "verified",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "maya-chen@example.com"
+    },
+    {
+      "id": "person-sofia-ramirez",
+      "target_id": "person-sofia-ramirez",
+      "company": "Everwell Systems Lab",
+      "person": "Sofia Ramirez",
+      "title": "Head of Platform",
+      "fit": 96,
+      "tier": "A",
+      "signal": "Hiring three platform engineers",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-002",
+      "evidence_id": "signal-002",
+      "source_name": "Public record",
+      "email_status": "verified",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "sofia-ramirez@example.com"
+    },
+    {
+      "id": "person-james-okafor",
+      "target_id": "person-james-okafor",
+      "company": "Nestwell Cloud Lab",
+      "person": "James Okafor",
+      "title": "Co-founder & CTO",
+      "fit": 95,
+      "tier": "A",
+      "signal": "Launching an AI agent developer platform",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-003",
+      "evidence_id": "signal-003",
+      "source_name": "Public record",
+      "email_status": "verified",
+      "best_route": "event_meet",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "james-okafor@example.com"
+    },
+    {
+      "id": "person-claire-dubois",
+      "target_id": "person-claire-dubois",
+      "company": "Silverlight Compute Lab",
+      "person": "Claire Dubois",
+      "title": "Director of Engineering",
+      "fit": 94,
+      "tier": "A",
+      "signal": "Announced a production agent infrastructure team",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-004",
+      "evidence_id": "signal-004",
+      "source_name": "Public record",
+      "email_status": "verified",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "claire-dubois@example.com"
+    },
+    {
+      "id": "person-daniel-wu",
+      "target_id": "person-daniel-wu",
+      "company": "Hearthstone Data Lab",
+      "person": "Daniel Wu",
+      "title": "Chief Technology Officer",
+      "fit": 93,
+      "tier": "A",
+      "signal": "Piloting agent run tracing in production",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-005",
+      "evidence_id": "signal-005",
+      "source_name": "Public record",
+      "email_status": "verified",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "daniel-wu@example.com"
+    },
+    {
+      "id": "person-aisha-patel",
+      "target_id": "person-aisha-patel",
+      "company": "Bloom Developer Lab",
+      "person": "Aisha Patel",
+      "title": "Founder & CTO",
+      "fit": 92,
+      "tier": "A",
+      "signal": "Launching a new incident review workflow",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-006",
+      "evidence_id": "signal-006",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "event_meet",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "aisha-patel@example.com"
+    },
+    {
+      "id": "person-theo-brooks",
+      "target_id": "person-theo-brooks",
+      "company": "Longview Infrastructure Lab",
+      "person": "Theo Brooks",
+      "title": "Head of Developer Experience",
+      "fit": 91,
+      "tier": "A",
+      "signal": "Looking for agent observability tooling",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-007",
+      "evidence_id": "signal-007",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "theo-brooks@example.com"
+    },
+    {
+      "id": "person-olivia-bennett",
+      "target_id": "person-olivia-bennett",
+      "company": "Serene Cloud Lab",
+      "person": "Olivia Bennett",
+      "title": "VP of Engineering",
+      "fit": 90,
+      "tier": "A",
+      "signal": "Expanding its platform reliability team",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-008",
+      "evidence_id": "signal-008",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "olivia-bennett@example.com"
+    },
+    {
+      "id": "person-noah-kim",
+      "target_id": "person-noah-kim",
+      "company": "Tendwell Software Lab",
+      "person": "Noah Kim",
+      "title": "Director of Platform",
+      "fit": 89,
+      "tier": "B",
+      "signal": "Seeking developer tooling partners",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-009",
+      "evidence_id": "signal-009",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "event_meet",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "noah-kim@example.com"
+    },
+    {
+      "id": "person-amara-johnson",
+      "target_id": "person-amara-johnson",
+      "company": "Goodroot Systems Lab",
+      "person": "Amara Johnson",
+      "title": "Engineering Director",
+      "fit": 88,
+      "tier": "B",
+      "signal": "Hosting a production AI reliability roundtable",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-010",
+      "evidence_id": "signal-010",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "amara-johnson@example.com"
+    },
+    {
+      "id": "person-lucas-martin",
+      "target_id": "person-lucas-martin",
+      "company": "Kinship Compute Lab",
+      "person": "Lucas Martin",
+      "title": "VP of Infrastructure",
+      "fit": 87,
+      "tier": "B",
+      "signal": "Testing a new deployment review workflow",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-011",
+      "evidence_id": "signal-011",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "lucas-martin@example.com"
+    },
+    {
+      "id": "person-zara-ahmed",
+      "target_id": "person-zara-ahmed",
+      "company": "Juniper Developer Lab",
+      "person": "Zara Ahmed",
+      "title": "CTO",
+      "fit": 86,
+      "tier": "B",
+      "signal": "Added a platform observability team",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-012",
+      "evidence_id": "signal-012",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "zara-ahmed@example.com"
+    },
+    {
+      "id": "person-ethan-park",
+      "target_id": "person-ethan-park",
+      "company": "Lumen Compute Lab",
+      "person": "Ethan Park",
+      "title": "Head of Engineering",
+      "fit": 85,
+      "tier": "B",
+      "signal": "Opened a developer tooling evaluation",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-013",
+      "evidence_id": "signal-013",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "ethan-park@example.com"
+    },
+    {
+      "id": "person-isabella-rossi",
+      "target_id": "person-isabella-rossi",
+      "company": "Willowbridge Systems Lab",
+      "person": "Isabella Rossi",
+      "title": "Director of Developer Experience",
+      "fit": 84,
+      "tier": "B",
+      "signal": "Consolidating application tracing software",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-014",
+      "evidence_id": "signal-014",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "event_meet",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "isabella-rossi@example.com"
+    },
+    {
+      "id": "person-owen-lewis",
+      "target_id": "person-owen-lewis",
+      "company": "Daybreak Developer Lab",
+      "person": "Owen Lewis",
+      "title": "Chief Product & Technology Officer",
+      "fit": 83,
+      "tier": "B",
+      "signal": "Launching a production AI agent platform",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-015",
+      "evidence_id": "signal-015",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "owen-lewis@example.com"
+    },
+    {
+      "id": "person-mei-tan",
+      "target_id": "person-mei-tan",
+      "company": "Aster Infrastructure Lab",
+      "person": "Mei Tan",
+      "title": "Platform Engineering Lead",
+      "fit": 82,
+      "tier": "B",
+      "signal": "Published an incident review automation brief",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-016",
+      "evidence_id": "signal-016",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "warm_intro",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "mei-tan@example.com"
+    },
+    {
+      "id": "person-gabriel-silva",
+      "target_id": "person-gabriel-silva",
+      "company": "Harborwell Compute Lab",
+      "person": "Gabriel Silva",
+      "title": "VP of Engineering",
+      "fit": 80,
+      "tier": "B",
+      "signal": "Recruiting site reliability engineers",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-017",
+      "evidence_id": "signal-017",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "gabriel-silva@example.com"
+    },
+    {
+      "id": "person-nina-kapoor",
+      "target_id": "person-nina-kapoor",
+      "company": "Gentlepath Systems Lab",
+      "person": "Nina Kapoor",
+      "title": "Head of Platform",
+      "fit": 78,
+      "tier": "C",
+      "signal": "Replacing a manual deployment audit process",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-018",
+      "evidence_id": "signal-018",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "nina-kapoor@example.com"
+    },
+    {
+      "id": "person-samir-das",
+      "target_id": "person-samir-das",
+      "company": "Newleaf Developer Lab",
+      "person": "Samir Das",
+      "title": "CTO",
+      "fit": 75,
+      "tier": "C",
+      "signal": "Preparing an observability procurement review",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-019",
+      "evidence_id": "signal-019",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "samir-das@example.com"
+    },
+    {
+      "id": "person-lily-foster",
+      "target_id": "person-lily-foster",
+      "company": "Oakline Compute Lab",
+      "person": "Lily Foster",
+      "title": "Director of Infrastructure",
+      "fit": 71,
+      "tier": "C",
+      "signal": "Announced an agent reliability working group",
+      "signal_kind": "hiring",
+      "source_url": "/evidence/signal-020",
+      "evidence_id": "signal-020",
+      "source_name": "Public record",
+      "email_status": "not_checked",
+      "best_route": "short_cold_email",
+      "status": "Matched",
+      "is_demo": true,
+      "email": "lily-foster@example.com"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "person-adarsh-baburaj",
+        "label": "Adarsh Baburaj",
+        "name": "Adarsh Baburaj",
+        "type": "Person",
+        "role_tag": "me",
+        "company": "Tracekit",
+        "company_id": "company-tracekit",
+        "title": "Founder",
+        "file_type": "concept",
+        "source_file": "gtm/person-adarsh-baburaj.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/adarsh-baburaj"
+        ]
+      },
+      {
+        "id": "person-ravi-shah",
+        "label": "Ravi Shah",
+        "name": "Ravi Shah",
+        "type": "Person",
+        "role_tag": "contact",
+        "company": "Northstar Studio Lab",
+        "company_id": "company-northstar-studio-lab",
+        "title": "Former colleague",
+        "file_type": "concept",
+        "source_file": "gtm/person-ravi-shah.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/ravi-shah"
+        ]
+      },
+      {
+        "id": "person-elena-park",
+        "label": "Elena Park",
+        "name": "Elena Park",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Kindred Labs",
+        "company_id": "company-kindred-labs",
+        "title": "Platform advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-elena-park.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/elena-park"
+        ]
+      },
+      {
+        "id": "person-priya-nair",
+        "label": "Priya Nair",
+        "name": "Priya Nair",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Devcraft Studio Lab",
+        "company_id": "company-devcraft-studio-lab",
+        "title": "Founder",
+        "file_type": "concept",
+        "source_file": "gtm/person-priya-nair.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/priya-nair"
+        ]
+      },
+      {
+        "id": "person-alex-morgan",
+        "label": "Alex Morgan",
+        "name": "Alex Morgan",
+        "type": "Person",
+        "role_tag": "contact",
+        "company": "Everwell Systems Lab",
+        "company_id": "company-everwell-systems-lab",
+        "title": "Platform advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-alex-morgan.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/alex-morgan"
+        ]
+      },
+      {
+        "id": "person-jordan-lee",
+        "label": "Jordan Lee",
+        "name": "Jordan Lee",
+        "type": "Person",
+        "role_tag": "contact",
+        "company": "Silverlight Compute Lab",
+        "company_id": "company-silverlight-compute-lab",
+        "title": "Technical founder",
+        "file_type": "concept",
+        "source_file": "gtm/person-jordan-lee.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/jordan-lee"
+        ]
+      },
+      {
+        "id": "person-cameron-reed",
+        "label": "Cameron Reed",
+        "name": "Cameron Reed",
+        "type": "Person",
+        "role_tag": "contact",
+        "company": "Hearthstone Data Lab",
+        "company_id": "company-hearthstone-data-lab",
+        "title": "Infrastructure advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-cameron-reed.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/cameron-reed"
+        ]
+      },
+      {
+        "id": "person-taylor-quinn",
+        "label": "Taylor Quinn",
+        "name": "Taylor Quinn",
+        "type": "Person",
+        "role_tag": "contact",
+        "company": "Bloom Developer Lab",
+        "company_id": "company-bloom-developer-lab",
+        "title": "Community lead",
+        "file_type": "concept",
+        "source_file": "gtm/person-taylor-quinn.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/taylor-quinn"
+        ]
+      },
+      {
+        "id": "person-morgan-ellis",
+        "label": "Morgan Ellis",
+        "name": "Morgan Ellis",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Longview Infrastructure Lab",
+        "company_id": "company-longview-infrastructure-lab",
+        "title": "Engineering advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-morgan-ellis.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/morgan-ellis"
+        ]
+      },
+      {
+        "id": "person-casey-flynn",
+        "label": "Casey Flynn",
+        "name": "Casey Flynn",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Serene Cloud Lab",
+        "company_id": "company-serene-cloud-lab",
+        "title": "Platform strategist",
+        "file_type": "concept",
+        "source_file": "gtm/person-casey-flynn.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/casey-flynn"
+        ]
+      },
+      {
+        "id": "person-jamie-rivera",
+        "label": "Jamie Rivera",
+        "name": "Jamie Rivera",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Tendwell Software Lab",
+        "company_id": "company-tendwell-software-lab",
+        "title": "Developer relations lead",
+        "file_type": "concept",
+        "source_file": "gtm/person-jamie-rivera.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/jamie-rivera"
+        ]
+      },
+      {
+        "id": "person-avery-scott",
+        "label": "Avery Scott",
+        "name": "Avery Scott",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Goodroot Systems Lab",
+        "company_id": "company-goodroot-systems-lab",
+        "title": "Platform fellow",
+        "file_type": "concept",
+        "source_file": "gtm/person-avery-scott.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/avery-scott"
+        ]
+      },
+      {
+        "id": "person-drew-parker",
+        "label": "Drew Parker",
+        "name": "Drew Parker",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Kinship Compute Lab",
+        "company_id": "company-kinship-compute-lab",
+        "title": "Engineering manager",
+        "file_type": "concept",
+        "source_file": "gtm/person-drew-parker.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/drew-parker"
+        ]
+      },
+      {
+        "id": "person-reese-allen",
+        "label": "Reese Allen",
+        "name": "Reese Allen",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Willowbridge Systems Lab",
+        "company_id": "company-willowbridge-systems-lab",
+        "title": "Research lead",
+        "file_type": "concept",
+        "source_file": "gtm/person-reese-allen.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/reese-allen"
+        ]
+      },
+      {
+        "id": "person-skyler-chen",
+        "label": "Skyler Chen",
+        "name": "Skyler Chen",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Daybreak Developer Lab",
+        "company_id": "company-daybreak-developer-lab",
+        "title": "Product advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-skyler-chen.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/skyler-chen"
+        ]
+      },
+      {
+        "id": "person-peyton-james",
+        "label": "Peyton James",
+        "name": "Peyton James",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Aster Infrastructure Lab",
+        "company_id": "company-aster-infrastructure-lab",
+        "title": "Platform mentor",
+        "file_type": "concept",
+        "source_file": "gtm/person-peyton-james.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/peyton-james"
+        ]
+      },
+      {
+        "id": "person-emery-cole",
+        "label": "Emery Cole",
+        "name": "Emery Cole",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Harborwell Compute Lab",
+        "company_id": "company-harborwell-compute-lab",
+        "title": "Infrastructure lead",
+        "file_type": "concept",
+        "source_file": "gtm/person-emery-cole.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/emery-cole"
+        ]
+      },
+      {
+        "id": "person-blair-adams",
+        "label": "Blair Adams",
+        "name": "Blair Adams",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Gentlepath Systems Lab",
+        "company_id": "company-gentlepath-systems-lab",
+        "title": "Program director",
+        "file_type": "concept",
+        "source_file": "gtm/person-blair-adams.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/blair-adams"
+        ]
+      },
+      {
+        "id": "person-robin-bell",
+        "label": "Robin Bell",
+        "name": "Robin Bell",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Newleaf Developer Lab",
+        "company_id": "company-newleaf-developer-lab",
+        "title": "Community advisor",
+        "file_type": "concept",
+        "source_file": "gtm/person-robin-bell.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/robin-bell"
+        ]
+      },
+      {
+        "id": "person-sage-turner",
+        "label": "Sage Turner",
+        "name": "Sage Turner",
+        "type": "Person",
+        "role_tag": "connector",
+        "company": "Oakline Compute Lab",
+        "company_id": "company-oakline-compute-lab",
+        "title": "Research fellow",
+        "file_type": "concept",
+        "source_file": "gtm/person-sage-turner.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/sage-turner"
+        ]
+      },
+      {
+        "id": "person-maya-chen",
+        "label": "Maya Chen",
+        "name": "Maya Chen",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Kindred Labs",
+        "company_id": "company-kindred-labs",
+        "title": "VP of Engineering",
+        "file_type": "concept",
+        "source_file": "gtm/person-maya-chen.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/maya-chen"
+        ],
+        "icp_score": 98,
+        "fit": 98,
+        "tier": "A"
+      },
+      {
+        "id": "company-kindred-labs",
+        "label": "Kindred Labs",
+        "name": "Kindred Labs",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "kindred-labs.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 98,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-kindred-labs.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-sofia-ramirez",
+        "label": "Sofia Ramirez",
+        "name": "Sofia Ramirez",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Everwell Systems Lab",
+        "company_id": "company-everwell-systems-lab",
+        "title": "Head of Platform",
+        "file_type": "concept",
+        "source_file": "gtm/person-sofia-ramirez.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/sofia-ramirez"
+        ],
+        "icp_score": 96,
+        "fit": 96,
+        "tier": "A"
+      },
+      {
+        "id": "company-everwell-systems-lab",
+        "label": "Everwell Systems Lab",
+        "name": "Everwell Systems Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "everwell-systems-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 96,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-everwell-systems-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-james-okafor",
+        "label": "James Okafor",
+        "name": "James Okafor",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Nestwell Cloud Lab",
+        "company_id": "company-nestwell-cloud-lab",
+        "title": "Co-founder & CTO",
+        "file_type": "concept",
+        "source_file": "gtm/person-james-okafor.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/james-okafor"
+        ],
+        "icp_score": 95,
+        "fit": 95,
+        "tier": "A"
+      },
+      {
+        "id": "company-nestwell-cloud-lab",
+        "label": "Nestwell Cloud Lab",
+        "name": "Nestwell Cloud Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "nestwell-cloud-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 95,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-nestwell-cloud-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-claire-dubois",
+        "label": "Claire Dubois",
+        "name": "Claire Dubois",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Silverlight Compute Lab",
+        "company_id": "company-silverlight-compute-lab",
+        "title": "Director of Engineering",
+        "file_type": "concept",
+        "source_file": "gtm/person-claire-dubois.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/claire-dubois"
+        ],
+        "icp_score": 94,
+        "fit": 94,
+        "tier": "A"
+      },
+      {
+        "id": "company-silverlight-compute-lab",
+        "label": "Silverlight Compute Lab",
+        "name": "Silverlight Compute Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "silverlight-compute-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 94,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-silverlight-compute-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-daniel-wu",
+        "label": "Daniel Wu",
+        "name": "Daniel Wu",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Hearthstone Data Lab",
+        "company_id": "company-hearthstone-data-lab",
+        "title": "Chief Technology Officer",
+        "file_type": "concept",
+        "source_file": "gtm/person-daniel-wu.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/daniel-wu"
+        ],
+        "icp_score": 93,
+        "fit": 93,
+        "tier": "A"
+      },
+      {
+        "id": "company-hearthstone-data-lab",
+        "label": "Hearthstone Data Lab",
+        "name": "Hearthstone Data Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "hearthstone-data-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 93,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-hearthstone-data-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-aisha-patel",
+        "label": "Aisha Patel",
+        "name": "Aisha Patel",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Bloom Developer Lab",
+        "company_id": "company-bloom-developer-lab",
+        "title": "Founder & CTO",
+        "file_type": "concept",
+        "source_file": "gtm/person-aisha-patel.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/aisha-patel"
+        ],
+        "icp_score": 92,
+        "fit": 92,
+        "tier": "A"
+      },
+      {
+        "id": "company-bloom-developer-lab",
+        "label": "Bloom Developer Lab",
+        "name": "Bloom Developer Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "bloom-developer-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 92,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-bloom-developer-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-theo-brooks",
+        "label": "Theo Brooks",
+        "name": "Theo Brooks",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Longview Infrastructure Lab",
+        "company_id": "company-longview-infrastructure-lab",
+        "title": "Head of Developer Experience",
+        "file_type": "concept",
+        "source_file": "gtm/person-theo-brooks.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/theo-brooks"
+        ],
+        "icp_score": 91,
+        "fit": 91,
+        "tier": "A"
+      },
+      {
+        "id": "company-longview-infrastructure-lab",
+        "label": "Longview Infrastructure Lab",
+        "name": "Longview Infrastructure Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "longview-infrastructure-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 91,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-longview-infrastructure-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-olivia-bennett",
+        "label": "Olivia Bennett",
+        "name": "Olivia Bennett",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Serene Cloud Lab",
+        "company_id": "company-serene-cloud-lab",
+        "title": "VP of Engineering",
+        "file_type": "concept",
+        "source_file": "gtm/person-olivia-bennett.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/olivia-bennett"
+        ],
+        "icp_score": 90,
+        "fit": 90,
+        "tier": "A"
+      },
+      {
+        "id": "company-serene-cloud-lab",
+        "label": "Serene Cloud Lab",
+        "name": "Serene Cloud Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "serene-cloud-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 90,
+        "tier": "A",
+        "file_type": "concept",
+        "source_file": "gtm/company-serene-cloud-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-noah-kim",
+        "label": "Noah Kim",
+        "name": "Noah Kim",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Tendwell Software Lab",
+        "company_id": "company-tendwell-software-lab",
+        "title": "Director of Platform",
+        "file_type": "concept",
+        "source_file": "gtm/person-noah-kim.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/noah-kim"
+        ],
+        "icp_score": 89,
+        "fit": 89,
+        "tier": "B"
+      },
+      {
+        "id": "company-tendwell-software-lab",
+        "label": "Tendwell Software Lab",
+        "name": "Tendwell Software Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "tendwell-software-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 89,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-tendwell-software-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-amara-johnson",
+        "label": "Amara Johnson",
+        "name": "Amara Johnson",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Goodroot Systems Lab",
+        "company_id": "company-goodroot-systems-lab",
+        "title": "Engineering Director",
+        "file_type": "concept",
+        "source_file": "gtm/person-amara-johnson.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/amara-johnson"
+        ],
+        "icp_score": 88,
+        "fit": 88,
+        "tier": "B"
+      },
+      {
+        "id": "company-goodroot-systems-lab",
+        "label": "Goodroot Systems Lab",
+        "name": "Goodroot Systems Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "goodroot-systems-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 88,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-goodroot-systems-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-lucas-martin",
+        "label": "Lucas Martin",
+        "name": "Lucas Martin",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Kinship Compute Lab",
+        "company_id": "company-kinship-compute-lab",
+        "title": "VP of Infrastructure",
+        "file_type": "concept",
+        "source_file": "gtm/person-lucas-martin.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/lucas-martin"
+        ],
+        "icp_score": 87,
+        "fit": 87,
+        "tier": "B"
+      },
+      {
+        "id": "company-kinship-compute-lab",
+        "label": "Kinship Compute Lab",
+        "name": "Kinship Compute Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "kinship-compute-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 87,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-kinship-compute-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-zara-ahmed",
+        "label": "Zara Ahmed",
+        "name": "Zara Ahmed",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Juniper Developer Lab",
+        "company_id": "company-juniper-developer-lab",
+        "title": "CTO",
+        "file_type": "concept",
+        "source_file": "gtm/person-zara-ahmed.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/zara-ahmed"
+        ],
+        "icp_score": 86,
+        "fit": 86,
+        "tier": "B"
+      },
+      {
+        "id": "company-juniper-developer-lab",
+        "label": "Juniper Developer Lab",
+        "name": "Juniper Developer Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "juniper-developer-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 86,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-juniper-developer-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-ethan-park",
+        "label": "Ethan Park",
+        "name": "Ethan Park",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Lumen Compute Lab",
+        "company_id": "company-lumen-compute-lab",
+        "title": "Head of Engineering",
+        "file_type": "concept",
+        "source_file": "gtm/person-ethan-park.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/ethan-park"
+        ],
+        "icp_score": 85,
+        "fit": 85,
+        "tier": "B"
+      },
+      {
+        "id": "company-lumen-compute-lab",
+        "label": "Lumen Compute Lab",
+        "name": "Lumen Compute Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "lumen-compute-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 85,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-lumen-compute-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-isabella-rossi",
+        "label": "Isabella Rossi",
+        "name": "Isabella Rossi",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Willowbridge Systems Lab",
+        "company_id": "company-willowbridge-systems-lab",
+        "title": "Director of Developer Experience",
+        "file_type": "concept",
+        "source_file": "gtm/person-isabella-rossi.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/isabella-rossi"
+        ],
+        "icp_score": 84,
+        "fit": 84,
+        "tier": "B"
+      },
+      {
+        "id": "company-willowbridge-systems-lab",
+        "label": "Willowbridge Systems Lab",
+        "name": "Willowbridge Systems Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "willowbridge-systems-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 84,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-willowbridge-systems-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-owen-lewis",
+        "label": "Owen Lewis",
+        "name": "Owen Lewis",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Daybreak Developer Lab",
+        "company_id": "company-daybreak-developer-lab",
+        "title": "Chief Product & Technology Officer",
+        "file_type": "concept",
+        "source_file": "gtm/person-owen-lewis.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/owen-lewis"
+        ],
+        "icp_score": 83,
+        "fit": 83,
+        "tier": "B"
+      },
+      {
+        "id": "company-daybreak-developer-lab",
+        "label": "Daybreak Developer Lab",
+        "name": "Daybreak Developer Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "daybreak-developer-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 83,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-daybreak-developer-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-mei-tan",
+        "label": "Mei Tan",
+        "name": "Mei Tan",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Aster Infrastructure Lab",
+        "company_id": "company-aster-infrastructure-lab",
+        "title": "Platform Engineering Lead",
+        "file_type": "concept",
+        "source_file": "gtm/person-mei-tan.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/mei-tan"
+        ],
+        "icp_score": 82,
+        "fit": 82,
+        "tier": "B"
+      },
+      {
+        "id": "company-aster-infrastructure-lab",
+        "label": "Aster Infrastructure Lab",
+        "name": "Aster Infrastructure Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "aster-infrastructure-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 82,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-aster-infrastructure-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-gabriel-silva",
+        "label": "Gabriel Silva",
+        "name": "Gabriel Silva",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Harborwell Compute Lab",
+        "company_id": "company-harborwell-compute-lab",
+        "title": "VP of Engineering",
+        "file_type": "concept",
+        "source_file": "gtm/person-gabriel-silva.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/gabriel-silva"
+        ],
+        "icp_score": 80,
+        "fit": 80,
+        "tier": "B"
+      },
+      {
+        "id": "company-harborwell-compute-lab",
+        "label": "Harborwell Compute Lab",
+        "name": "Harborwell Compute Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "harborwell-compute-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 80,
+        "tier": "B",
+        "file_type": "concept",
+        "source_file": "gtm/company-harborwell-compute-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-nina-kapoor",
+        "label": "Nina Kapoor",
+        "name": "Nina Kapoor",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Gentlepath Systems Lab",
+        "company_id": "company-gentlepath-systems-lab",
+        "title": "Head of Platform",
+        "file_type": "concept",
+        "source_file": "gtm/person-nina-kapoor.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/nina-kapoor"
+        ],
+        "icp_score": 78,
+        "fit": 78,
+        "tier": "C"
+      },
+      {
+        "id": "company-gentlepath-systems-lab",
+        "label": "Gentlepath Systems Lab",
+        "name": "Gentlepath Systems Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "gentlepath-systems-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 78,
+        "tier": "C",
+        "file_type": "concept",
+        "source_file": "gtm/company-gentlepath-systems-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-samir-das",
+        "label": "Samir Das",
+        "name": "Samir Das",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Newleaf Developer Lab",
+        "company_id": "company-newleaf-developer-lab",
+        "title": "CTO",
+        "file_type": "concept",
+        "source_file": "gtm/person-samir-das.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/samir-das"
+        ],
+        "icp_score": 75,
+        "fit": 75,
+        "tier": "C"
+      },
+      {
+        "id": "company-newleaf-developer-lab",
+        "label": "Newleaf Developer Lab",
+        "name": "Newleaf Developer Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "newleaf-developer-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 75,
+        "tier": "C",
+        "file_type": "concept",
+        "source_file": "gtm/company-newleaf-developer-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "person-lily-foster",
+        "label": "Lily Foster",
+        "name": "Lily Foster",
+        "type": "Person",
+        "role_tag": "target",
+        "company": "Oakline Compute Lab",
+        "company_id": "company-oakline-compute-lab",
+        "title": "Director of Infrastructure",
+        "file_type": "concept",
+        "source_file": "gtm/person-lily-foster.md",
+        "is_demo": true,
+        "public_urls": [
+          "https://example.com/in/lily-foster"
+        ],
+        "icp_score": 71,
+        "fit": 71,
+        "tier": "C"
+      },
+      {
+        "id": "company-oakline-compute-lab",
+        "label": "Oakline Compute Lab",
+        "name": "Oakline Compute Lab",
+        "type": "Company",
+        "industry": "Developer tooling",
+        "domain": "oakline-compute-lab.example",
+        "size_band": "51–200",
+        "hq": "San Francisco, CA",
+        "icp_score": 71,
+        "tier": "C",
+        "file_type": "concept",
+        "source_file": "gtm/company-oakline-compute-lab.md",
+        "is_demo": true
+      },
+      {
+        "id": "product-tracekit",
+        "name": "Tracekit",
+        "label": "Tracekit",
+        "type": "Product",
+        "file_type": "concept",
+        "source_file": "gtm/product-tracekit.md",
+        "value_props": [
+          "Agent run tracing",
+          "Production reliability",
+          "Deployment review"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "event-platform-salon",
+        "name": "The Platform Engineering Salon",
+        "start": "2026-12-03T18:00:00-08:00",
+        "end": "2026-12-03T20:00:00-08:00",
+        "city": "San Francisco",
+        "venue": "Founders Loft, South Park",
+        "score": 96,
+        "targets_present": [
+          "person-maya-chen",
+          "person-james-okafor",
+          "person-aisha-patel"
+        ],
+        "connectors_present": [
+          "person-elena-park",
+          "person-ravi-shah"
+        ],
+        "travel": "Local · 20 min · no flight needed",
+        "description": "A small-room discussion about production AI reliability. Maya is a featured speaker.",
+        "url": "/evidence/event-platform-salon-listing",
+        "source_url": "/evidence/event-platform-salon-listing",
+        "source": "listing",
+        "guest_list_visibility": "public",
+        "is_demo": true,
+        "target_names": [
+          "Maya Chen",
+          "James Okafor",
+          "Aisha Patel"
+        ],
+        "connector_names": [
+          "Elena Park",
+          "Ravi Shah"
+        ],
+        "label": "The Platform Engineering Salon",
+        "type": "Event",
+        "file_type": "concept",
+        "source_file": "gtm/event-platform-salon.md"
+      },
+      {
+        "id": "event-devtools-breakfast",
+        "name": "Developer Tools Breakfast",
+        "start": "2026-12-05T09:00:00-08:00",
+        "end": "2026-12-05T11:00:00-08:00",
+        "city": "Oakland",
+        "venue": "Uptown Commons",
+        "score": 88,
+        "targets_present": [
+          "person-sofia-ramirez",
+          "person-olivia-bennett",
+          "person-noah-kim"
+        ],
+        "connectors_present": [
+          "person-alex-morgan",
+          "person-jamie-rivera"
+        ],
+        "travel": "Nearby · 35 min by transit",
+        "description": "A breakfast for platform leaders evaluating agent run tracing.",
+        "url": "/evidence/event-devtools-breakfast-listing",
+        "source_url": "/evidence/event-devtools-breakfast-listing",
+        "source": "listing",
+        "guest_list_visibility": "public",
+        "is_demo": true,
+        "target_names": [
+          "Sofia Ramirez",
+          "Olivia Bennett",
+          "Noah Kim"
+        ],
+        "connector_names": [
+          "Alex Morgan",
+          "Jamie Rivera"
+        ],
+        "label": "Developer Tools Breakfast",
+        "type": "Event",
+        "file_type": "concept",
+        "source_file": "gtm/event-devtools-breakfast.md"
+      },
+      {
+        "id": "event-ai-reliability-forum",
+        "name": "Production AI Reliability Forum",
+        "start": "2026-12-10T14:00:00-08:00",
+        "end": "2026-12-10T17:00:00-08:00",
+        "city": "Palo Alto",
+        "venue": "University Avenue Hall",
+        "score": 81,
+        "targets_present": [
+          "person-claire-dubois",
+          "person-theo-brooks",
+          "person-mei-tan"
+        ],
+        "connectors_present": [
+          "person-jordan-lee",
+          "person-morgan-ellis"
+        ],
+        "travel": "Regional · 55 min by train",
+        "description": "An engineering panel on AI reliability and platform infrastructure.",
+        "url": "/evidence/event-ai-reliability-forum-listing",
+        "source_url": "/evidence/event-ai-reliability-forum-listing",
+        "source": "listing",
+        "guest_list_visibility": "public",
+        "is_demo": true,
+        "target_names": [
+          "Claire Dubois",
+          "Theo Brooks",
+          "Mei Tan"
+        ],
+        "connector_names": [
+          "Jordan Lee",
+          "Morgan Ellis"
+        ],
+        "label": "Production AI Reliability Forum",
+        "type": "Event",
+        "file_type": "concept",
+        "source_file": "gtm/event-ai-reliability-forum.md"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-001",
+        "source": "person-maya-chen",
+        "target": "company-kindred-labs",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-001",
+        "source_file": "fixtures/evidence/relationship-001.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-001"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-002",
+        "source": "person-sofia-ramirez",
+        "target": "company-everwell-systems-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-002",
+        "source_file": "fixtures/evidence/relationship-002.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-002"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-003",
+        "source": "person-james-okafor",
+        "target": "company-nestwell-cloud-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-003",
+        "source_file": "fixtures/evidence/relationship-003.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-003"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-004",
+        "source": "person-claire-dubois",
+        "target": "company-silverlight-compute-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-004",
+        "source_file": "fixtures/evidence/relationship-004.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-004"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-005",
+        "source": "person-daniel-wu",
+        "target": "company-hearthstone-data-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-005",
+        "source_file": "fixtures/evidence/relationship-005.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-005"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-006",
+        "source": "person-aisha-patel",
+        "target": "company-bloom-developer-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-006",
+        "source_file": "fixtures/evidence/relationship-006.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-006"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-007",
+        "source": "person-theo-brooks",
+        "target": "company-longview-infrastructure-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-007",
+        "source_file": "fixtures/evidence/relationship-007.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-007"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-008",
+        "source": "person-olivia-bennett",
+        "target": "company-serene-cloud-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-008",
+        "source_file": "fixtures/evidence/relationship-008.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-008"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-009",
+        "source": "person-noah-kim",
+        "target": "company-tendwell-software-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-009",
+        "source_file": "fixtures/evidence/relationship-009.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-009"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-010",
+        "source": "person-amara-johnson",
+        "target": "company-goodroot-systems-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-010",
+        "source_file": "fixtures/evidence/relationship-010.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-010"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-011",
+        "source": "person-lucas-martin",
+        "target": "company-kinship-compute-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-011",
+        "source_file": "fixtures/evidence/relationship-011.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-011"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-012",
+        "source": "person-zara-ahmed",
+        "target": "company-juniper-developer-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-012",
+        "source_file": "fixtures/evidence/relationship-012.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-012"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-013",
+        "source": "person-ethan-park",
+        "target": "company-lumen-compute-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-013",
+        "source_file": "fixtures/evidence/relationship-013.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-013"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-014",
+        "source": "person-isabella-rossi",
+        "target": "company-willowbridge-systems-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-014",
+        "source_file": "fixtures/evidence/relationship-014.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-014"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-015",
+        "source": "person-owen-lewis",
+        "target": "company-daybreak-developer-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-015",
+        "source_file": "fixtures/evidence/relationship-015.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-015"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-016",
+        "source": "person-mei-tan",
+        "target": "company-aster-infrastructure-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-016",
+        "source_file": "fixtures/evidence/relationship-016.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-016"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-017",
+        "source": "person-gabriel-silva",
+        "target": "company-harborwell-compute-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-017",
+        "source_file": "fixtures/evidence/relationship-017.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-017"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-018",
+        "source": "person-nina-kapoor",
+        "target": "company-gentlepath-systems-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-018",
+        "source_file": "fixtures/evidence/relationship-018.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-018"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-019",
+        "source": "person-samir-das",
+        "target": "company-newleaf-developer-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-019",
+        "source_file": "fixtures/evidence/relationship-019.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-019"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-020",
+        "source": "person-lily-foster",
+        "target": "company-oakline-compute-lab",
+        "relation": "WORKS_AT",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-020",
+        "source_file": "fixtures/evidence/relationship-020.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-020"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-021",
+        "source": "person-adarsh-baburaj",
+        "target": "person-ravi-shah",
+        "relation": "KNOWS_DIRECT",
+        "confidence": "EXTRACTED",
+        "weight": 0.95,
+        "source_url": "/evidence/relationship-021",
+        "source_file": "fixtures/evidence/relationship-021.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-021"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-022",
+        "source": "person-adarsh-baburaj",
+        "target": "person-alex-morgan",
+        "relation": "KNOWS_DIRECT",
+        "confidence": "EXTRACTED",
+        "weight": 0.95,
+        "source_url": "/evidence/relationship-022",
+        "source_file": "fixtures/evidence/relationship-022.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-022"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-023",
+        "source": "person-adarsh-baburaj",
+        "target": "person-jordan-lee",
+        "relation": "KNOWS_DIRECT",
+        "confidence": "EXTRACTED",
+        "weight": 0.95,
+        "source_url": "/evidence/relationship-023",
+        "source_file": "fixtures/evidence/relationship-023.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-023"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-024",
+        "source": "person-adarsh-baburaj",
+        "target": "person-cameron-reed",
+        "relation": "KNOWS_DIRECT",
+        "confidence": "EXTRACTED",
+        "weight": 0.95,
+        "source_url": "/evidence/relationship-024",
+        "source_file": "fixtures/evidence/relationship-024.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-024"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-025",
+        "source": "person-adarsh-baburaj",
+        "target": "person-taylor-quinn",
+        "relation": "KNOWS_DIRECT",
+        "confidence": "EXTRACTED",
+        "weight": 0.95,
+        "source_url": "/evidence/relationship-025",
+        "source_file": "fixtures/evidence/relationship-025.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-025"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-026",
+        "source": "person-ravi-shah",
+        "target": "person-elena-park",
+        "relation": "WORKED_WITH",
+        "confidence": "INFERRED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-026",
+        "source_file": "fixtures/evidence/relationship-026.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-026"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-027",
+        "source": "person-elena-park",
+        "target": "person-maya-chen",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-027",
+        "source_file": "fixtures/evidence/relationship-027.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-027"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-028",
+        "source": "person-alex-morgan",
+        "target": "person-sofia-ramirez",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-028",
+        "source_file": "fixtures/evidence/relationship-028.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-028"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-029",
+        "source": "person-taylor-quinn",
+        "target": "person-james-okafor",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-029",
+        "source_file": "fixtures/evidence/relationship-029.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-029"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-030",
+        "source": "person-jordan-lee",
+        "target": "person-claire-dubois",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-030",
+        "source_file": "fixtures/evidence/relationship-030.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-030"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-031",
+        "source": "person-cameron-reed",
+        "target": "person-daniel-wu",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-031",
+        "source_file": "fixtures/evidence/relationship-031.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-031"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-032",
+        "source": "person-taylor-quinn",
+        "target": "person-aisha-patel",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-032",
+        "source_file": "fixtures/evidence/relationship-032.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-032"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-033",
+        "source": "person-jordan-lee",
+        "target": "person-morgan-ellis",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-033",
+        "source_file": "fixtures/evidence/relationship-033.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-033"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-034",
+        "source": "person-morgan-ellis",
+        "target": "person-theo-brooks",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-034",
+        "source_file": "fixtures/evidence/relationship-034.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-034"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-035",
+        "source": "person-alex-morgan",
+        "target": "person-casey-flynn",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-035",
+        "source_file": "fixtures/evidence/relationship-035.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-035"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-036",
+        "source": "person-casey-flynn",
+        "target": "person-olivia-bennett",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-036",
+        "source_file": "fixtures/evidence/relationship-036.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-036"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-037",
+        "source": "person-taylor-quinn",
+        "target": "person-jamie-rivera",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-037",
+        "source_file": "fixtures/evidence/relationship-037.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-037"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-038",
+        "source": "person-jamie-rivera",
+        "target": "person-noah-kim",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-038",
+        "source_file": "fixtures/evidence/relationship-038.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-038"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-039",
+        "source": "person-jordan-lee",
+        "target": "person-avery-scott",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-039",
+        "source_file": "fixtures/evidence/relationship-039.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-039"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-040",
+        "source": "person-avery-scott",
+        "target": "person-amara-johnson",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-040",
+        "source_file": "fixtures/evidence/relationship-040.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-040"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-041",
+        "source": "person-cameron-reed",
+        "target": "person-drew-parker",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-041",
+        "source_file": "fixtures/evidence/relationship-041.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-041"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-042",
+        "source": "person-drew-parker",
+        "target": "person-lucas-martin",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-042",
+        "source_file": "fixtures/evidence/relationship-042.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-042"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-043",
+        "source": "person-alex-morgan",
+        "target": "person-reese-allen",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-043",
+        "source_file": "fixtures/evidence/relationship-043.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-043"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-044",
+        "source": "person-reese-allen",
+        "target": "person-isabella-rossi",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-044",
+        "source_file": "fixtures/evidence/relationship-044.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-044"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-045",
+        "source": "person-jordan-lee",
+        "target": "person-peyton-james",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-045",
+        "source_file": "fixtures/evidence/relationship-045.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-045"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-046",
+        "source": "person-peyton-james",
+        "target": "person-mei-tan",
+        "relation": "WORKED_WITH",
+        "confidence": "EXTRACTED",
+        "weight": 0.75,
+        "source_url": "/evidence/relationship-046",
+        "source_file": "fixtures/evidence/relationship-046.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-046"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-047",
+        "source": "person-priya-nair",
+        "target": "person-maya-chen",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-047",
+        "source_file": "fixtures/evidence/relationship-047.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-047"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-048",
+        "source": "person-priya-nair",
+        "target": "person-zara-ahmed",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-048",
+        "source_file": "fixtures/evidence/relationship-048.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-048"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-049",
+        "source": "person-priya-nair",
+        "target": "person-ethan-park",
+        "relation": "SAME_TEAM",
+        "confidence": "EXTRACTED",
+        "weight": 0.85,
+        "source_url": "/evidence/relationship-049",
+        "source_file": "fixtures/evidence/relationship-049.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-049"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-050",
+        "source": "person-maya-chen",
+        "target": "event-platform-salon",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-050",
+        "source_file": "fixtures/evidence/relationship-050.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-050"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-051",
+        "source": "person-james-okafor",
+        "target": "event-platform-salon",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-051",
+        "source_file": "fixtures/evidence/relationship-051.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-051"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-052",
+        "source": "person-aisha-patel",
+        "target": "event-platform-salon",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-052",
+        "source_file": "fixtures/evidence/relationship-052.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-052"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-053",
+        "source": "person-elena-park",
+        "target": "event-platform-salon",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-053",
+        "source_file": "fixtures/evidence/relationship-053.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-053"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-054",
+        "source": "person-ravi-shah",
+        "target": "event-platform-salon",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-054",
+        "source_file": "fixtures/evidence/relationship-054.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-054"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-055",
+        "source": "person-sofia-ramirez",
+        "target": "event-devtools-breakfast",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-055",
+        "source_file": "fixtures/evidence/relationship-055.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-055"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-056",
+        "source": "person-olivia-bennett",
+        "target": "event-devtools-breakfast",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-056",
+        "source_file": "fixtures/evidence/relationship-056.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-056"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-057",
+        "source": "person-noah-kim",
+        "target": "event-devtools-breakfast",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-057",
+        "source_file": "fixtures/evidence/relationship-057.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-057"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-058",
+        "source": "person-alex-morgan",
+        "target": "event-devtools-breakfast",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-058",
+        "source_file": "fixtures/evidence/relationship-058.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-058"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-059",
+        "source": "person-jamie-rivera",
+        "target": "event-devtools-breakfast",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-059",
+        "source_file": "fixtures/evidence/relationship-059.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-059"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-060",
+        "source": "person-claire-dubois",
+        "target": "event-ai-reliability-forum",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-060",
+        "source_file": "fixtures/evidence/relationship-060.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-060"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-061",
+        "source": "person-theo-brooks",
+        "target": "event-ai-reliability-forum",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-061",
+        "source_file": "fixtures/evidence/relationship-061.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-061"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-062",
+        "source": "person-mei-tan",
+        "target": "event-ai-reliability-forum",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-062",
+        "source_file": "fixtures/evidence/relationship-062.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-062"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-063",
+        "source": "person-jordan-lee",
+        "target": "event-ai-reliability-forum",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-063",
+        "source_file": "fixtures/evidence/relationship-063.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-063"
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "edge-064",
+        "source": "person-morgan-ellis",
+        "target": "event-ai-reliability-forum",
+        "relation": "ATTENDING",
+        "confidence": "EXTRACTED",
+        "weight": 1,
+        "source_url": "/evidence/relationship-064",
+        "source_file": "fixtures/evidence/relationship-064.md",
+        "observed_at": "2026-11-24T18:00:00Z",
+        "evidence_ids": [
+          "relationship-064"
+        ],
+        "is_demo": true
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "event-platform-salon",
+      "name": "The Platform Engineering Salon",
+      "start": "2026-12-03T18:00:00-08:00",
+      "end": "2026-12-03T20:00:00-08:00",
+      "city": "San Francisco",
+      "venue": "Founders Loft, South Park",
+      "score": 96,
+      "targets_present": [
+        "person-maya-chen",
+        "person-james-okafor",
+        "person-aisha-patel"
+      ],
+      "connectors_present": [
+        "person-elena-park",
+        "person-ravi-shah"
+      ],
+      "travel": "Local · 20 min · no flight needed",
+      "description": "A small-room discussion about production AI reliability. Maya is a featured speaker.",
+      "url": "/evidence/event-platform-salon-listing",
+      "source_url": "/evidence/event-platform-salon-listing",
+      "source": "listing",
+      "guest_list_visibility": "public",
+      "is_demo": true,
+      "target_names": [
+        "Maya Chen",
+        "James Okafor",
+        "Aisha Patel"
+      ],
+      "connector_names": [
+        "Elena Park",
+        "Ravi Shah"
+      ]
+    },
+    {
+      "id": "event-devtools-breakfast",
+      "name": "Developer Tools Breakfast",
+      "start": "2026-12-05T09:00:00-08:00",
+      "end": "2026-12-05T11:00:00-08:00",
+      "city": "Oakland",
+      "venue": "Uptown Commons",
+      "score": 88,
+      "targets_present": [
+        "person-sofia-ramirez",
+        "person-olivia-bennett",
+        "person-noah-kim"
+      ],
+      "connectors_present": [
+        "person-alex-morgan",
+        "person-jamie-rivera"
+      ],
+      "travel": "Nearby · 35 min by transit",
+      "description": "A breakfast for platform leaders evaluating agent run tracing.",
+      "url": "/evidence/event-devtools-breakfast-listing",
+      "source_url": "/evidence/event-devtools-breakfast-listing",
+      "source": "listing",
+      "guest_list_visibility": "public",
+      "is_demo": true,
+      "target_names": [
+        "Sofia Ramirez",
+        "Olivia Bennett",
+        "Noah Kim"
+      ],
+      "connector_names": [
+        "Alex Morgan",
+        "Jamie Rivera"
+      ]
+    },
+    {
+      "id": "event-ai-reliability-forum",
+      "name": "Production AI Reliability Forum",
+      "start": "2026-12-10T14:00:00-08:00",
+      "end": "2026-12-10T17:00:00-08:00",
+      "city": "Palo Alto",
+      "venue": "University Avenue Hall",
+      "score": 81,
+      "targets_present": [
+        "person-claire-dubois",
+        "person-theo-brooks",
+        "person-mei-tan"
+      ],
+      "connectors_present": [
+        "person-jordan-lee",
+        "person-morgan-ellis"
+      ],
+      "travel": "Regional · 55 min by train",
+      "description": "An engineering panel on AI reliability and platform infrastructure.",
+      "url": "/evidence/event-ai-reliability-forum-listing",
+      "source_url": "/evidence/event-ai-reliability-forum-listing",
+      "source": "listing",
+      "guest_list_visibility": "public",
+      "is_demo": true,
+      "target_names": [
+        "Claire Dubois",
+        "Theo Brooks",
+        "Mei Tan"
+      ],
+      "connector_names": [
+        "Jordan Lee",
+        "Morgan Ellis"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "signal-001",
+      "title": "Kindred Labs public update",
+      "text": "Maya Chen is VP of Engineering at Kindred Labs. Maya Chen published a platform reliability roadmap for AI agents.",
+      "url": "/evidence/signal-001",
+      "source_url": "/evidence/signal-001",
+      "source_file": "fixtures/evidence/signal-001.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-001",
+      "title": "Works at",
+      "text": "Maya Chen is VP of Engineering at Kindred Labs.",
+      "url": "/evidence/relationship-001",
+      "source_url": "/evidence/relationship-001",
+      "source_file": "fixtures/evidence/relationship-001.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-002",
+      "title": "Everwell Systems Lab public update",
+      "text": "Sofia Ramirez is Head of Platform at Everwell Systems Lab. Sofia Ramirez hiring three platform engineers.",
+      "url": "/evidence/signal-002",
+      "source_url": "/evidence/signal-002",
+      "source_file": "fixtures/evidence/signal-002.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-002",
+      "title": "Works at",
+      "text": "Sofia Ramirez is Head of Platform at Everwell Systems Lab.",
+      "url": "/evidence/relationship-002",
+      "source_url": "/evidence/relationship-002",
+      "source_file": "fixtures/evidence/relationship-002.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-003",
+      "title": "Nestwell Cloud Lab public update",
+      "text": "James Okafor is Co-founder & CTO at Nestwell Cloud Lab. James Okafor launching an AI agent developer platform.",
+      "url": "/evidence/signal-003",
+      "source_url": "/evidence/signal-003",
+      "source_file": "fixtures/evidence/signal-003.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-003",
+      "title": "Works at",
+      "text": "James Okafor is Co-founder & CTO at Nestwell Cloud Lab.",
+      "url": "/evidence/relationship-003",
+      "source_url": "/evidence/relationship-003",
+      "source_file": "fixtures/evidence/relationship-003.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-004",
+      "title": "Silverlight Compute Lab public update",
+      "text": "Claire Dubois is Director of Engineering at Silverlight Compute Lab. Claire Dubois announced a production agent infrastructure team.",
+      "url": "/evidence/signal-004",
+      "source_url": "/evidence/signal-004",
+      "source_file": "fixtures/evidence/signal-004.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-004",
+      "title": "Works at",
+      "text": "Claire Dubois is Director of Engineering at Silverlight Compute Lab.",
+      "url": "/evidence/relationship-004",
+      "source_url": "/evidence/relationship-004",
+      "source_file": "fixtures/evidence/relationship-004.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-005",
+      "title": "Hearthstone Data Lab public update",
+      "text": "Daniel Wu is Chief Technology Officer at Hearthstone Data Lab. Daniel Wu piloting agent run tracing in production.",
+      "url": "/evidence/signal-005",
+      "source_url": "/evidence/signal-005",
+      "source_file": "fixtures/evidence/signal-005.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-005",
+      "title": "Works at",
+      "text": "Daniel Wu is Chief Technology Officer at Hearthstone Data Lab.",
+      "url": "/evidence/relationship-005",
+      "source_url": "/evidence/relationship-005",
+      "source_file": "fixtures/evidence/relationship-005.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-006",
+      "title": "Bloom Developer Lab public update",
+      "text": "Aisha Patel is Founder & CTO at Bloom Developer Lab. Aisha Patel launching a new incident review workflow.",
+      "url": "/evidence/signal-006",
+      "source_url": "/evidence/signal-006",
+      "source_file": "fixtures/evidence/signal-006.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-006",
+      "title": "Works at",
+      "text": "Aisha Patel is Founder & CTO at Bloom Developer Lab.",
+      "url": "/evidence/relationship-006",
+      "source_url": "/evidence/relationship-006",
+      "source_file": "fixtures/evidence/relationship-006.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-007",
+      "title": "Longview Infrastructure Lab public update",
+      "text": "Theo Brooks is Head of Developer Experience at Longview Infrastructure Lab. Theo Brooks looking for agent observability tooling.",
+      "url": "/evidence/signal-007",
+      "source_url": "/evidence/signal-007",
+      "source_file": "fixtures/evidence/signal-007.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-007",
+      "title": "Works at",
+      "text": "Theo Brooks is Head of Developer Experience at Longview Infrastructure Lab.",
+      "url": "/evidence/relationship-007",
+      "source_url": "/evidence/relationship-007",
+      "source_file": "fixtures/evidence/relationship-007.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-008",
+      "title": "Serene Cloud Lab public update",
+      "text": "Olivia Bennett is VP of Engineering at Serene Cloud Lab. Olivia Bennett expanding its platform reliability team.",
+      "url": "/evidence/signal-008",
+      "source_url": "/evidence/signal-008",
+      "source_file": "fixtures/evidence/signal-008.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-008",
+      "title": "Works at",
+      "text": "Olivia Bennett is VP of Engineering at Serene Cloud Lab.",
+      "url": "/evidence/relationship-008",
+      "source_url": "/evidence/relationship-008",
+      "source_file": "fixtures/evidence/relationship-008.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-009",
+      "title": "Tendwell Software Lab public update",
+      "text": "Noah Kim is Director of Platform at Tendwell Software Lab. Noah Kim seeking developer tooling partners.",
+      "url": "/evidence/signal-009",
+      "source_url": "/evidence/signal-009",
+      "source_file": "fixtures/evidence/signal-009.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-009",
+      "title": "Works at",
+      "text": "Noah Kim is Director of Platform at Tendwell Software Lab.",
+      "url": "/evidence/relationship-009",
+      "source_url": "/evidence/relationship-009",
+      "source_file": "fixtures/evidence/relationship-009.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-010",
+      "title": "Goodroot Systems Lab public update",
+      "text": "Amara Johnson is Engineering Director at Goodroot Systems Lab. Amara Johnson hosting a production AI reliability roundtable.",
+      "url": "/evidence/signal-010",
+      "source_url": "/evidence/signal-010",
+      "source_file": "fixtures/evidence/signal-010.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-010",
+      "title": "Works at",
+      "text": "Amara Johnson is Engineering Director at Goodroot Systems Lab.",
+      "url": "/evidence/relationship-010",
+      "source_url": "/evidence/relationship-010",
+      "source_file": "fixtures/evidence/relationship-010.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-011",
+      "title": "Kinship Compute Lab public update",
+      "text": "Lucas Martin is VP of Infrastructure at Kinship Compute Lab. Lucas Martin testing a new deployment review workflow.",
+      "url": "/evidence/signal-011",
+      "source_url": "/evidence/signal-011",
+      "source_file": "fixtures/evidence/signal-011.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-011",
+      "title": "Works at",
+      "text": "Lucas Martin is VP of Infrastructure at Kinship Compute Lab.",
+      "url": "/evidence/relationship-011",
+      "source_url": "/evidence/relationship-011",
+      "source_file": "fixtures/evidence/relationship-011.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-012",
+      "title": "Juniper Developer Lab public update",
+      "text": "Zara Ahmed is CTO at Juniper Developer Lab. Zara Ahmed added a platform observability team.",
+      "url": "/evidence/signal-012",
+      "source_url": "/evidence/signal-012",
+      "source_file": "fixtures/evidence/signal-012.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-012",
+      "title": "Works at",
+      "text": "Zara Ahmed is CTO at Juniper Developer Lab.",
+      "url": "/evidence/relationship-012",
+      "source_url": "/evidence/relationship-012",
+      "source_file": "fixtures/evidence/relationship-012.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-013",
+      "title": "Lumen Compute Lab public update",
+      "text": "Ethan Park is Head of Engineering at Lumen Compute Lab. Ethan Park opened a developer tooling evaluation.",
+      "url": "/evidence/signal-013",
+      "source_url": "/evidence/signal-013",
+      "source_file": "fixtures/evidence/signal-013.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-013",
+      "title": "Works at",
+      "text": "Ethan Park is Head of Engineering at Lumen Compute Lab.",
+      "url": "/evidence/relationship-013",
+      "source_url": "/evidence/relationship-013",
+      "source_file": "fixtures/evidence/relationship-013.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-014",
+      "title": "Willowbridge Systems Lab public update",
+      "text": "Isabella Rossi is Director of Developer Experience at Willowbridge Systems Lab. Isabella Rossi consolidating application tracing software.",
+      "url": "/evidence/signal-014",
+      "source_url": "/evidence/signal-014",
+      "source_file": "fixtures/evidence/signal-014.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-014",
+      "title": "Works at",
+      "text": "Isabella Rossi is Director of Developer Experience at Willowbridge Systems Lab.",
+      "url": "/evidence/relationship-014",
+      "source_url": "/evidence/relationship-014",
+      "source_file": "fixtures/evidence/relationship-014.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-015",
+      "title": "Daybreak Developer Lab public update",
+      "text": "Owen Lewis is Chief Product & Technology Officer at Daybreak Developer Lab. Owen Lewis launching a production AI agent platform.",
+      "url": "/evidence/signal-015",
+      "source_url": "/evidence/signal-015",
+      "source_file": "fixtures/evidence/signal-015.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-015",
+      "title": "Works at",
+      "text": "Owen Lewis is Chief Product & Technology Officer at Daybreak Developer Lab.",
+      "url": "/evidence/relationship-015",
+      "source_url": "/evidence/relationship-015",
+      "source_file": "fixtures/evidence/relationship-015.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-016",
+      "title": "Aster Infrastructure Lab public update",
+      "text": "Mei Tan is Platform Engineering Lead at Aster Infrastructure Lab. Mei Tan published an incident review automation brief.",
+      "url": "/evidence/signal-016",
+      "source_url": "/evidence/signal-016",
+      "source_file": "fixtures/evidence/signal-016.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-016",
+      "title": "Works at",
+      "text": "Mei Tan is Platform Engineering Lead at Aster Infrastructure Lab.",
+      "url": "/evidence/relationship-016",
+      "source_url": "/evidence/relationship-016",
+      "source_file": "fixtures/evidence/relationship-016.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-017",
+      "title": "Harborwell Compute Lab public update",
+      "text": "Gabriel Silva is VP of Engineering at Harborwell Compute Lab. Gabriel Silva recruiting site reliability engineers.",
+      "url": "/evidence/signal-017",
+      "source_url": "/evidence/signal-017",
+      "source_file": "fixtures/evidence/signal-017.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-017",
+      "title": "Works at",
+      "text": "Gabriel Silva is VP of Engineering at Harborwell Compute Lab.",
+      "url": "/evidence/relationship-017",
+      "source_url": "/evidence/relationship-017",
+      "source_file": "fixtures/evidence/relationship-017.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-018",
+      "title": "Gentlepath Systems Lab public update",
+      "text": "Nina Kapoor is Head of Platform at Gentlepath Systems Lab. Nina Kapoor replacing a manual deployment audit process.",
+      "url": "/evidence/signal-018",
+      "source_url": "/evidence/signal-018",
+      "source_file": "fixtures/evidence/signal-018.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-018",
+      "title": "Works at",
+      "text": "Nina Kapoor is Head of Platform at Gentlepath Systems Lab.",
+      "url": "/evidence/relationship-018",
+      "source_url": "/evidence/relationship-018",
+      "source_file": "fixtures/evidence/relationship-018.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-019",
+      "title": "Newleaf Developer Lab public update",
+      "text": "Samir Das is CTO at Newleaf Developer Lab. Samir Das preparing an observability procurement review.",
+      "url": "/evidence/signal-019",
+      "source_url": "/evidence/signal-019",
+      "source_file": "fixtures/evidence/signal-019.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-019",
+      "title": "Works at",
+      "text": "Samir Das is CTO at Newleaf Developer Lab.",
+      "url": "/evidence/relationship-019",
+      "source_url": "/evidence/relationship-019",
+      "source_file": "fixtures/evidence/relationship-019.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "signal-020",
+      "title": "Oakline Compute Lab public update",
+      "text": "Lily Foster is Director of Infrastructure at Oakline Compute Lab. Lily Foster announced an agent reliability working group.",
+      "url": "/evidence/signal-020",
+      "source_url": "/evidence/signal-020",
+      "source_file": "fixtures/evidence/signal-020.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "signal",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-020",
+      "title": "Works at",
+      "text": "Lily Foster is Director of Infrastructure at Oakline Compute Lab.",
+      "url": "/evidence/relationship-020",
+      "source_url": "/evidence/relationship-020",
+      "source_file": "fixtures/evidence/relationship-020.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-021",
+      "title": "Knows direct",
+      "text": "Adarsh Baburaj added Ravi Shah to the Connections.csv export after meeting professionally.",
+      "url": "/evidence/relationship-021",
+      "source_url": "/evidence/relationship-021",
+      "source_file": "fixtures/evidence/relationship-021.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-022",
+      "title": "Knows direct",
+      "text": "Adarsh Baburaj added Alex Morgan to the Connections.csv export after meeting professionally.",
+      "url": "/evidence/relationship-022",
+      "source_url": "/evidence/relationship-022",
+      "source_file": "fixtures/evidence/relationship-022.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-023",
+      "title": "Knows direct",
+      "text": "Adarsh Baburaj added Jordan Lee to the Connections.csv export after meeting professionally.",
+      "url": "/evidence/relationship-023",
+      "source_url": "/evidence/relationship-023",
+      "source_file": "fixtures/evidence/relationship-023.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-024",
+      "title": "Knows direct",
+      "text": "Adarsh Baburaj added Cameron Reed to the Connections.csv export after meeting professionally.",
+      "url": "/evidence/relationship-024",
+      "source_url": "/evidence/relationship-024",
+      "source_file": "fixtures/evidence/relationship-024.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-025",
+      "title": "Knows direct",
+      "text": "Adarsh Baburaj added Taylor Quinn to the Connections.csv export after meeting professionally.",
+      "url": "/evidence/relationship-025",
+      "source_url": "/evidence/relationship-025",
+      "source_file": "fixtures/evidence/relationship-025.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-026",
+      "title": "Worked with",
+      "text": "Public bios place Ravi Shah and Elena Park at Northstar Studio Lab during 2022–2024. A direct relationship is inferred, not confirmed.",
+      "url": "/evidence/relationship-026",
+      "source_url": "/evidence/relationship-026",
+      "source_file": "fixtures/evidence/relationship-026.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-027",
+      "title": "Same team",
+      "text": "The Kindred Labs team page names Elena Park as a platform advisor working with VP of Engineering Maya Chen.",
+      "url": "/evidence/relationship-027",
+      "source_url": "/evidence/relationship-027",
+      "source_file": "fixtures/evidence/relationship-027.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-028",
+      "title": "Worked with",
+      "text": "Everwell Systems Lab team records state Alex Morgan worked directly with Sofia Ramirez.",
+      "url": "/evidence/relationship-028",
+      "source_url": "/evidence/relationship-028",
+      "source_file": "fixtures/evidence/relationship-028.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-029",
+      "title": "Worked with",
+      "text": "Conference bios state Taylor Quinn and James Okafor worked together on an agent tracing pilot.",
+      "url": "/evidence/relationship-029",
+      "source_url": "/evidence/relationship-029",
+      "source_file": "fixtures/evidence/relationship-029.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-030",
+      "title": "Worked with",
+      "text": "Engineering team notes state Claire Dubois worked directly with Jordan Lee at a prior developer tools company.",
+      "url": "/evidence/relationship-030",
+      "source_url": "/evidence/relationship-030",
+      "source_file": "fixtures/evidence/relationship-030.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-031",
+      "title": "Same team",
+      "text": "The Hearthstone Data Lab team page names Cameron Reed and Daniel Wu on the platform team.",
+      "url": "/evidence/relationship-031",
+      "source_url": "/evidence/relationship-031",
+      "source_file": "fixtures/evidence/relationship-031.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-032",
+      "title": "Same team",
+      "text": "The Bloom Developer Lab team page names Taylor Quinn and founder Aisha Patel.",
+      "url": "/evidence/relationship-032",
+      "source_url": "/evidence/relationship-032",
+      "source_file": "fixtures/evidence/relationship-032.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-033",
+      "title": "Worked with",
+      "text": "Alumni notes state Jordan Lee worked directly with Morgan Ellis.",
+      "url": "/evidence/relationship-033",
+      "source_url": "/evidence/relationship-033",
+      "source_file": "fixtures/evidence/relationship-033.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-034",
+      "title": "Worked with",
+      "text": "Team notes state Morgan Ellis worked directly with Theo Brooks.",
+      "url": "/evidence/relationship-034",
+      "source_url": "/evidence/relationship-034",
+      "source_file": "fixtures/evidence/relationship-034.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-035",
+      "title": "Worked with",
+      "text": "Alumni notes state Alex Morgan worked directly with Casey Flynn.",
+      "url": "/evidence/relationship-035",
+      "source_url": "/evidence/relationship-035",
+      "source_file": "fixtures/evidence/relationship-035.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-036",
+      "title": "Worked with",
+      "text": "Team notes state Casey Flynn worked directly with Olivia Bennett.",
+      "url": "/evidence/relationship-036",
+      "source_url": "/evidence/relationship-036",
+      "source_file": "fixtures/evidence/relationship-036.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-037",
+      "title": "Worked with",
+      "text": "Alumni notes state Taylor Quinn worked directly with Jamie Rivera.",
+      "url": "/evidence/relationship-037",
+      "source_url": "/evidence/relationship-037",
+      "source_file": "fixtures/evidence/relationship-037.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-038",
+      "title": "Worked with",
+      "text": "Team notes state Jamie Rivera worked directly with Noah Kim.",
+      "url": "/evidence/relationship-038",
+      "source_url": "/evidence/relationship-038",
+      "source_file": "fixtures/evidence/relationship-038.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-039",
+      "title": "Worked with",
+      "text": "Alumni notes state Jordan Lee worked directly with Avery Scott.",
+      "url": "/evidence/relationship-039",
+      "source_url": "/evidence/relationship-039",
+      "source_file": "fixtures/evidence/relationship-039.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-040",
+      "title": "Worked with",
+      "text": "Team notes state Avery Scott worked directly with Amara Johnson.",
+      "url": "/evidence/relationship-040",
+      "source_url": "/evidence/relationship-040",
+      "source_file": "fixtures/evidence/relationship-040.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-041",
+      "title": "Worked with",
+      "text": "Alumni notes state Cameron Reed worked directly with Drew Parker.",
+      "url": "/evidence/relationship-041",
+      "source_url": "/evidence/relationship-041",
+      "source_file": "fixtures/evidence/relationship-041.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-042",
+      "title": "Worked with",
+      "text": "Team notes state Drew Parker worked directly with Lucas Martin.",
+      "url": "/evidence/relationship-042",
+      "source_url": "/evidence/relationship-042",
+      "source_file": "fixtures/evidence/relationship-042.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-043",
+      "title": "Worked with",
+      "text": "Alumni notes state Alex Morgan worked directly with Reese Allen.",
+      "url": "/evidence/relationship-043",
+      "source_url": "/evidence/relationship-043",
+      "source_file": "fixtures/evidence/relationship-043.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-044",
+      "title": "Worked with",
+      "text": "Team notes state Reese Allen worked directly with Isabella Rossi.",
+      "url": "/evidence/relationship-044",
+      "source_url": "/evidence/relationship-044",
+      "source_file": "fixtures/evidence/relationship-044.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-045",
+      "title": "Worked with",
+      "text": "Alumni notes state Jordan Lee worked directly with Peyton James.",
+      "url": "/evidence/relationship-045",
+      "source_url": "/evidence/relationship-045",
+      "source_file": "fixtures/evidence/relationship-045.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-046",
+      "title": "Worked with",
+      "text": "Team notes state Peyton James worked directly with Mei Tan.",
+      "url": "/evidence/relationship-046",
+      "source_url": "/evidence/relationship-046",
+      "source_file": "fixtures/evidence/relationship-046.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-047",
+      "title": "Same team",
+      "text": "A Devcraft Studio Lab developer advisory cohort lists Priya Nair and Maya Chen as collaborators who meet monthly.",
+      "url": "/evidence/relationship-047",
+      "source_url": "/evidence/relationship-047",
+      "source_file": "fixtures/evidence/relationship-047.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-048",
+      "title": "Same team",
+      "text": "A Devcraft Studio Lab developer advisory cohort lists Priya Nair and Zara Ahmed as collaborators who meet monthly.",
+      "url": "/evidence/relationship-048",
+      "source_url": "/evidence/relationship-048",
+      "source_file": "fixtures/evidence/relationship-048.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-049",
+      "title": "Same team",
+      "text": "A Devcraft Studio Lab developer advisory cohort lists Priya Nair and Ethan Park as collaborators who meet monthly.",
+      "url": "/evidence/relationship-049",
+      "source_url": "/evidence/relationship-049",
+      "source_file": "fixtures/evidence/relationship-049.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "event-platform-salon-listing",
+      "title": "The Platform Engineering Salon guest list",
+      "text": "A small-room discussion about production AI reliability. Maya is a featured speaker.",
+      "url": "/evidence/event-platform-salon-listing",
+      "source_url": "/evidence/event-platform-salon-listing",
+      "source_file": "fixtures/evidence/event-platform-salon-listing.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "event",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-050",
+      "title": "Attending",
+      "text": "The public guest list places person-maya-chen at The Platform Engineering Salon.",
+      "url": "/evidence/relationship-050",
+      "source_url": "/evidence/relationship-050",
+      "source_file": "fixtures/evidence/relationship-050.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-051",
+      "title": "Attending",
+      "text": "The public guest list places person-james-okafor at The Platform Engineering Salon.",
+      "url": "/evidence/relationship-051",
+      "source_url": "/evidence/relationship-051",
+      "source_file": "fixtures/evidence/relationship-051.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-052",
+      "title": "Attending",
+      "text": "The public guest list places person-aisha-patel at The Platform Engineering Salon.",
+      "url": "/evidence/relationship-052",
+      "source_url": "/evidence/relationship-052",
+      "source_file": "fixtures/evidence/relationship-052.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-053",
+      "title": "Attending",
+      "text": "The public guest list places person-elena-park at The Platform Engineering Salon.",
+      "url": "/evidence/relationship-053",
+      "source_url": "/evidence/relationship-053",
+      "source_file": "fixtures/evidence/relationship-053.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-054",
+      "title": "Attending",
+      "text": "The public guest list places person-ravi-shah at The Platform Engineering Salon.",
+      "url": "/evidence/relationship-054",
+      "source_url": "/evidence/relationship-054",
+      "source_file": "fixtures/evidence/relationship-054.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "event-devtools-breakfast-listing",
+      "title": "Developer Tools Breakfast guest list",
+      "text": "A breakfast for platform leaders evaluating agent run tracing.",
+      "url": "/evidence/event-devtools-breakfast-listing",
+      "source_url": "/evidence/event-devtools-breakfast-listing",
+      "source_file": "fixtures/evidence/event-devtools-breakfast-listing.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "event",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-055",
+      "title": "Attending",
+      "text": "The public guest list places person-sofia-ramirez at Developer Tools Breakfast.",
+      "url": "/evidence/relationship-055",
+      "source_url": "/evidence/relationship-055",
+      "source_file": "fixtures/evidence/relationship-055.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-056",
+      "title": "Attending",
+      "text": "The public guest list places person-olivia-bennett at Developer Tools Breakfast.",
+      "url": "/evidence/relationship-056",
+      "source_url": "/evidence/relationship-056",
+      "source_file": "fixtures/evidence/relationship-056.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-057",
+      "title": "Attending",
+      "text": "The public guest list places person-noah-kim at Developer Tools Breakfast.",
+      "url": "/evidence/relationship-057",
+      "source_url": "/evidence/relationship-057",
+      "source_file": "fixtures/evidence/relationship-057.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-058",
+      "title": "Attending",
+      "text": "The public guest list places person-alex-morgan at Developer Tools Breakfast.",
+      "url": "/evidence/relationship-058",
+      "source_url": "/evidence/relationship-058",
+      "source_file": "fixtures/evidence/relationship-058.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-059",
+      "title": "Attending",
+      "text": "The public guest list places person-jamie-rivera at Developer Tools Breakfast.",
+      "url": "/evidence/relationship-059",
+      "source_url": "/evidence/relationship-059",
+      "source_file": "fixtures/evidence/relationship-059.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "event-ai-reliability-forum-listing",
+      "title": "Production AI Reliability Forum guest list",
+      "text": "An engineering panel on AI reliability and platform infrastructure.",
+      "url": "/evidence/event-ai-reliability-forum-listing",
+      "source_url": "/evidence/event-ai-reliability-forum-listing",
+      "source_file": "fixtures/evidence/event-ai-reliability-forum-listing.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "event",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-060",
+      "title": "Attending",
+      "text": "The public guest list places person-claire-dubois at Production AI Reliability Forum.",
+      "url": "/evidence/relationship-060",
+      "source_url": "/evidence/relationship-060",
+      "source_file": "fixtures/evidence/relationship-060.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-061",
+      "title": "Attending",
+      "text": "The public guest list places person-theo-brooks at Production AI Reliability Forum.",
+      "url": "/evidence/relationship-061",
+      "source_url": "/evidence/relationship-061",
+      "source_file": "fixtures/evidence/relationship-061.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-062",
+      "title": "Attending",
+      "text": "The public guest list places person-mei-tan at Production AI Reliability Forum.",
+      "url": "/evidence/relationship-062",
+      "source_url": "/evidence/relationship-062",
+      "source_file": "fixtures/evidence/relationship-062.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-063",
+      "title": "Attending",
+      "text": "The public guest list places person-jordan-lee at Production AI Reliability Forum.",
+      "url": "/evidence/relationship-063",
+      "source_url": "/evidence/relationship-063",
+      "source_file": "fixtures/evidence/relationship-063.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    },
+    {
+      "id": "relationship-064",
+      "title": "Attending",
+      "text": "The public guest list places person-morgan-ellis at Production AI Reliability Forum.",
+      "url": "/evidence/relationship-064",
+      "source_url": "/evidence/relationship-064",
+      "source_file": "fixtures/evidence/relationship-064.md",
+      "observed_at": "2026-11-24T18:00:00Z",
+      "kind": "relationship",
+      "is_demo": true,
+      "disclaimer": "Source record."
+    }
+  ],
+  "icp": {
+    "id": "icp-tracekit",
+    "name": "Tracekit · production reliability",
+    "industries": [
+      {
+        "value": "Developer platforms & SaaS",
+        "confidence": 0.96,
+        "why": "Agent run tracing is the central product use case.",
+        "naics": "541511"
+      },
+      {
+        "value": "Platform engineering teams",
+        "confidence": 0.92,
+        "why": "The founder is seeking platform teams to pilot an observability toolkit."
+      }
+    ],
+    "sizes": [
+      {
+        "value": "51–200 employees",
+        "confidence": 0.91,
+        "why": "Growing engineering organizations have production reliability needs and a reachable buying team."
+      },
+      {
+        "value": "11–50 employees",
+        "confidence": 0.84,
+        "why": "Smaller software teams can adopt developer tools quickly."
+      }
+    ],
+    "titles": [
+      {
+        "value": "VP of Engineering / Head of Platform",
+        "confidence": 0.95,
+        "why": "Owns platform operations and engineering outcomes."
+      },
+      {
+        "value": "CTO / Director of Engineering",
+        "confidence": 0.92,
+        "why": "Leads developer tooling evaluation and infrastructure decisions."
+      },
+      {
+        "value": "Developer Experience Lead",
+        "confidence": 0.88,
+        "why": "Sponsors new developer tooling pilots."
+      }
+    ],
+    "triggers": [
+      {
+        "value": "Launching production AI agents",
+        "confidence": 0.93,
+        "why": "Production agent launches increase tracing and reliability needs."
+      },
+      {
+        "value": "New platform reliability roadmap",
+        "confidence": 0.91,
+        "why": "Signals a timely platform engineering conversation."
+      },
+      {
+        "value": "Hiring platform engineers",
+        "confidence": 0.87,
+        "why": "Suggests a funded infrastructure initiative."
+      }
+    ],
+    "board_verdict": [
+      {
+        "lens": "Customer",
+        "text": "Lead with faster agent failure diagnosis and safer production changes."
+      },
+      {
+        "lens": "Market",
+        "text": "Start with local platform engineering teams shipping AI agents."
+      },
+      {
+        "lens": "Execution",
+        "text": "Secure one platform-team pilot and one technical buyer conversation."
+      }
+    ],
+    "is_demo": true
+  },
+  "expansions": [
+    {
+      "id": "expansion-ai-native",
+      "name": "AI-native product teams",
+      "title": "AI-native product teams",
+      "confidence": 0.84,
+      "why": "AI-native product teams share the same agent failure diagnosis workflow.",
+      "evidence": "Product-context heuristic for Tracekit.",
+      "status": "suggested"
+    },
+    {
+      "id": "expansion-internal-platforms",
+      "name": "Internal developer platforms",
+      "title": "Internal developer platforms",
+      "confidence": 0.71,
+      "why": "Internal platform teams need visibility into agent deployments across services.",
+      "evidence": "Product-context heuristic; requires customer validation.",
+      "status": "suggested"
+    }
+  ],
+  "pipeline": {
+    "cards": [
+      {
+        "id": "person-maya-chen",
+        "target_id": "person-maya-chen",
+        "company": "Kindred Labs",
+        "person": "Maya Chen",
+        "title": "VP of Engineering",
+        "tier": "A",
+        "fit": 98,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-sofia-ramirez",
+        "target_id": "person-sofia-ramirez",
+        "company": "Everwell Systems Lab",
+        "person": "Sofia Ramirez",
+        "title": "Head of Platform",
+        "tier": "A",
+        "fit": 96,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-james-okafor",
+        "target_id": "person-james-okafor",
+        "company": "Nestwell Cloud Lab",
+        "person": "James Okafor",
+        "title": "Co-founder & CTO",
+        "tier": "A",
+        "fit": 95,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "event_meet",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-claire-dubois",
+        "target_id": "person-claire-dubois",
+        "company": "Silverlight Compute Lab",
+        "person": "Claire Dubois",
+        "title": "Director of Engineering",
+        "tier": "A",
+        "fit": 94,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-daniel-wu",
+        "target_id": "person-daniel-wu",
+        "company": "Hearthstone Data Lab",
+        "person": "Daniel Wu",
+        "title": "Chief Technology Officer",
+        "tier": "A",
+        "fit": 93,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-aisha-patel",
+        "target_id": "person-aisha-patel",
+        "company": "Bloom Developer Lab",
+        "person": "Aisha Patel",
+        "title": "Founder & CTO",
+        "tier": "A",
+        "fit": 92,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "event_meet",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-theo-brooks",
+        "target_id": "person-theo-brooks",
+        "company": "Longview Infrastructure Lab",
+        "person": "Theo Brooks",
+        "title": "Head of Developer Experience",
+        "tier": "A",
+        "fit": 91,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-olivia-bennett",
+        "target_id": "person-olivia-bennett",
+        "company": "Serene Cloud Lab",
+        "person": "Olivia Bennett",
+        "title": "VP of Engineering",
+        "tier": "A",
+        "fit": 90,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-noah-kim",
+        "target_id": "person-noah-kim",
+        "company": "Tendwell Software Lab",
+        "person": "Noah Kim",
+        "title": "Director of Platform",
+        "tier": "B",
+        "fit": 89,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "event_meet",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-amara-johnson",
+        "target_id": "person-amara-johnson",
+        "company": "Goodroot Systems Lab",
+        "person": "Amara Johnson",
+        "title": "Engineering Director",
+        "tier": "B",
+        "fit": 88,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-lucas-martin",
+        "target_id": "person-lucas-martin",
+        "company": "Kinship Compute Lab",
+        "person": "Lucas Martin",
+        "title": "VP of Infrastructure",
+        "tier": "B",
+        "fit": 87,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "warm_intro",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-zara-ahmed",
+        "target_id": "person-zara-ahmed",
+        "company": "Juniper Developer Lab",
+        "person": "Zara Ahmed",
+        "title": "CTO",
+        "tier": "B",
+        "fit": 86,
+        "stage": "Matched",
+        "status": "Matched",
+        "route": "short_cold_email",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-ethan-park",
+        "target_id": "person-ethan-park",
+        "company": "Lumen Compute Lab",
+        "person": "Ethan Park",
+        "title": "Head of Engineering",
+        "tier": "B",
+        "fit": 85,
+        "stage": "Contacted",
+        "status": "Contacted",
+        "route": "short_cold_email",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-isabella-rossi",
+        "target_id": "person-isabella-rossi",
+        "company": "Willowbridge Systems Lab",
+        "person": "Isabella Rossi",
+        "title": "Director of Developer Experience",
+        "tier": "B",
+        "fit": 84,
+        "stage": "Contacted",
+        "status": "Contacted",
+        "route": "event_meet",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-owen-lewis",
+        "target_id": "person-owen-lewis",
+        "company": "Daybreak Developer Lab",
+        "person": "Owen Lewis",
+        "title": "Chief Product & Technology Officer",
+        "tier": "B",
+        "fit": 83,
+        "stage": "Contacted",
+        "status": "Contacted",
+        "route": "short_cold_email",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-mei-tan",
+        "target_id": "person-mei-tan",
+        "company": "Aster Infrastructure Lab",
+        "person": "Mei Tan",
+        "title": "Platform Engineering Lead",
+        "tier": "B",
+        "fit": 82,
+        "stage": "Contacted",
+        "status": "Contacted",
+        "route": "warm_intro",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-gabriel-silva",
+        "target_id": "person-gabriel-silva",
+        "company": "Harborwell Compute Lab",
+        "person": "Gabriel Silva",
+        "title": "VP of Engineering",
+        "tier": "B",
+        "fit": 80,
+        "stage": "Replied",
+        "status": "Replied",
+        "route": "short_cold_email",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-nina-kapoor",
+        "target_id": "person-nina-kapoor",
+        "company": "Gentlepath Systems Lab",
+        "person": "Nina Kapoor",
+        "title": "Head of Platform",
+        "tier": "C",
+        "fit": 78,
+        "stage": "Replied",
+        "status": "Replied",
+        "route": "short_cold_email",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-samir-das",
+        "target_id": "person-samir-das",
+        "company": "Newleaf Developer Lab",
+        "person": "Samir Das",
+        "title": "CTO",
+        "tier": "C",
+        "fit": 75,
+        "stage": "Meeting Booked",
+        "status": "Meeting Booked",
+        "route": "short_cold_email",
+        "actor": "agent",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "agent",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      },
+      {
+        "id": "person-lily-foster",
+        "target_id": "person-lily-foster",
+        "company": "Oakline Compute Lab",
+        "person": "Lily Foster",
+        "title": "Director of Infrastructure",
+        "tier": "C",
+        "fit": 71,
+        "stage": "Closed/Lost",
+        "status": "Closed/Lost",
+        "route": "short_cold_email",
+        "actor": "you",
+        "updated_at": "2026-11-24T18:00:00Z",
+        "audit_log": [
+          {
+            "action": "Added from discovery",
+            "actor": "you",
+            "ts": "2026-11-24T18:00:00Z"
+          }
+        ],
+        "is_demo": true
+      }
+    ]
+  },
+  "agent_events": [
+    {
+      "agent": "Planner",
+      "role": "planning",
+      "text": "@Builder Find platform engineering leaders and technical buyers with a timely, sourced reason to meet.",
+      "ts": "2026-11-24T18:00:00Z",
+      "tokens": 312,
+      "cost": 0,
+      "is_demo": true
+    },
+    {
+      "agent": "Builder",
+      "role": "discovery",
+      "text": "Loaded 20 leads. Every row links to its source record.",
+      "ts": "2026-11-24T18:00:00Z",
+      "tokens": 628,
+      "cost": 0,
+      "is_demo": true
+    },
+    {
+      "agent": "Builder",
+      "role": "graph",
+      "text": "Mapped Ravi → Elena → Maya. The Ravi–Elena overlap remains INFERRED.",
+      "ts": "2026-11-24T18:00:00Z",
+      "tokens": 241,
+      "cost": 0,
+      "is_demo": true
+    },
+    {
+      "agent": "Reviewer",
+      "role": "review",
+      "text": "Source check ready. Unsupported factual edits will block approval.",
+      "ts": "2026-11-24T18:00:00Z",
+      "tokens": 163,
+      "cost": 0,
+      "is_demo": true
+    },
+    {
+      "agent": "Security",
+      "role": "security",
+      "text": "Nothing goes out without your approval.",
+      "ts": "2026-11-24T18:00:00Z",
+      "tokens": 110,
+      "cost": 0,
+      "is_demo": true
+    }
+  ],
+  "capture_candidates": [
+    {
+      "name": "Priya Nair",
+      "company": "Devcraft Studio Lab",
+      "person_id": "person-priya-nair",
+      "profile_url": "https://example.com/in/priya-nair",
+      "note": "I just met Priya at the hackathon.",
+      "expected_target_ids": [
+        "person-maya-chen",
+        "person-zara-ahmed",
+        "person-ethan-park"
+      ],
+      "is_demo": true
+    }
+  ],
+  "credits": {
+    "balance": 120,
+    "events": {
+      "lead_enriched": 0,
+      "outreach_sent": 0,
+      "graph_query": 0,
+      "event_scan": 0,
+      "cake_sent": 0
+    }
+  }
+}

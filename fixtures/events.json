@@ -1,0 +1,104 @@
+[
+  {
+    "id": "event-platform-salon",
+    "name": "The Platform Engineering Salon",
+    "start": "2026-12-03T18:00:00-08:00",
+    "end": "2026-12-03T20:00:00-08:00",
+    "city": "San Francisco",
+    "venue": "Founders Loft, South Park",
+    "score": 96,
+    "targets_present": [
+      "person-maya-chen",
+      "person-james-okafor",
+      "person-aisha-patel"
+    ],
+    "connectors_present": [
+      "person-elena-park",
+      "person-ravi-shah"
+    ],
+    "travel": "Local · 20 min · no flight needed",
+    "description": "A small-room discussion about production AI reliability. Maya is a featured speaker.",
+    "url": "/evidence/event-platform-salon-listing",
+    "source_url": "/evidence/event-platform-salon-listing",
+    "source": "listing",
+    "guest_list_visibility": "public",
+    "is_demo": true,
+    "target_names": [
+      "Maya Chen",
+      "James Okafor",
+      "Aisha Patel"
+    ],
+    "connector_names": [
+      "Elena Park",
+      "Ravi Shah"
+    ]
+  },
+  {
+    "id": "event-devtools-breakfast",
+    "name": "Developer Tools Breakfast",
+    "start": "2026-12-05T09:00:00-08:00",
+    "end": "2026-12-05T11:00:00-08:00",
+    "city": "Oakland",
+    "venue": "Uptown Commons",
+    "score": 88,
+    "targets_present": [
+      "person-sofia-ramirez",
+      "person-olivia-bennett",
+      "person-noah-kim"
+    ],
+    "connectors_present": [
+      "person-alex-morgan",
+      "person-jamie-rivera"
+    ],
+    "travel": "Nearby · 35 min by transit",
+    "description": "A breakfast for platform leaders evaluating agent run tracing.",
+    "url": "/evidence/event-devtools-breakfast-listing",
+    "source_url": "/evidence/event-devtools-breakfast-listing",
+    "source": "listing",
+    "guest_list_visibility": "public",
+    "is_demo": true,
+    "target_names": [
+      "Sofia Ramirez",
+      "Olivia Bennett",
+      "Noah Kim"
+    ],
+    "connector_names": [
+      "Alex Morgan",
+      "Jamie Rivera"
+    ]
+  },
+  {
+    "id": "event-ai-reliability-forum",
+    "name": "Production AI Reliability Forum",
+    "start": "2026-12-10T14:00:00-08:00",
+    "end": "2026-12-10T17:00:00-08:00",
+    "city": "Palo Alto",
+    "venue": "University Avenue Hall",
+    "score": 81,
+    "targets_present": [
+      "person-claire-dubois",
+      "person-theo-brooks",
+      "person-mei-tan"
+    ],
+    "connectors_present": [
+      "person-jordan-lee",
+      "person-morgan-ellis"
+    ],
+    "travel": "Regional · 55 min by train",
+    "description": "An engineering panel on AI reliability and platform infrastructure.",
+    "url": "/evidence/event-ai-reliability-forum-listing",
+    "source_url": "/evidence/event-ai-reliability-forum-listing",
+    "source": "listing",
+    "guest_list_visibility": "public",
+    "is_demo": true,
+    "target_names": [
+      "Claire Dubois",
+      "Theo Brooks",
+      "Mei Tan"
+    ],
+    "connector_names": [
+      "Jordan Lee",
+      "Morgan Ellis"
+    ]
+  }
+]

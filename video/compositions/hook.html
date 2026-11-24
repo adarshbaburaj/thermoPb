@@ -1,0 +1,153 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: var(--ground);
+      font-family: "Inter", sans-serif;
+      color: var(--ink);
+    }
+    #hook-phone {
+      position: absolute;
+      left: 330px;
+      top: 90px;
+      width: 436px;
+      height: 920px;
+      border-radius: 58px;
+      background: #ffffff;
+      padding: 11px;
+      box-shadow:
+        0 0 0 1px #dfd2e9,
+        0 40px 90px rgba(53, 44, 72, 0.16);
+    }
+    #hook-screen {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 48px;
+      overflow: hidden;
+      background: #000;
+    }
+    #hook-screen video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hook-words {
+      position: absolute;
+      left: 900px;
+      top: 0;
+      width: 900px;
+      height: 1080px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+    }
+    .hook-line {
+      font-weight: 900;
+      font-size: 128px;
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      white-space: nowrap;
+    }
+    .hook-line span {
+      display: inline-block;
+      margin-right: 0.22em;
+    }
+    .hook-quiet {
+      font-weight: 700;
+      font-size: 64px;
+      letter-spacing: -0.02em;
+      color: var(--muted);
+    }
+    .hook-list .hook-line {
+      font-size: 120px;
+    }
+    #hook-found {
+      font-size: 116px;
+      white-space: normal;
+      width: 860px;
+    }
+  </style>
+  <div id="root" data-layout-allow-overflow data-composition-id="hook" data-width="1920" data-height="1080">
+    <div id="hook-phone">
+      <div id="hook-screen">
+        <video id="hook-v1" class="clip" src="assets/footage/luma-x.mp4" data-start="0" data-duration="2.25" data-media-start="8" data-playback-rate="2" data-track-index="1" muted playsinline></video>
+        <video id="hook-v2" class="clip" src="assets/footage/luma-x.mp4" data-start="2.25" data-duration="0.7" data-media-start="22.5" data-playback-rate="2" data-track-index="1" muted playsinline></video>
+        <video id="hook-v3" class="clip" src="assets/footage/luma-x.mp4" data-start="2.95" data-duration="0.65" data-media-start="24.75" data-track-index="1" muted playsinline></video>
+        <video id="hook-v4" class="clip" src="assets/footage/luma-x.mp4" data-start="3.6" data-duration="0.66" data-media-start="31.45" data-track-index="1" muted playsinline></video>
+        <video id="hook-v5" class="clip" src="assets/footage/linkedin.mp4" data-start="4.26" data-duration="1.2" data-media-start="3" data-playback-rate="3" data-track-index="1" muted playsinline></video>
+        <video id="hook-v6" class="clip" src="assets/footage/linkedin.mp4" data-start="5.46" data-duration="1.5" data-media-start="12.4" data-playback-rate="1.5" data-track-index="1" muted playsinline></video>
+        <video id="hook-v7" class="clip" src="assets/footage/linkedin.mp4" data-start="6.96" data-duration="1.84" data-media-start="18.9" data-playback-rate="0.3" data-track-index="1" muted playsinline></video>
+      </div>
+    </div>
+
+    <div class="hook-words" id="hook-a">
+      <div class="hook-line"><span id="hook-a1">638</span><span id="hook-a2">people.</span></div>
+      <div class="hook-line hook-quiet"><span id="hook-a3">One</span><span id="hook-a4">hackathon.</span></div>
+    </div>
+
+    <div class="hook-words hook-list" id="hook-b">
+      <div class="hook-line" id="hook-b1">Scroll.</div>
+      <div class="hook-line" id="hook-b2">Tap.</div>
+      <div class="hook-line" id="hook-b3">Follow.</div>
+      <div class="hook-line" id="hook-b4">Scan.</div>
+    </div>
+
+    <div class="hook-words" id="hook-c">
+      <div class="hook-line hook-quiet" id="hook-c1">And LinkedIn still says:</div>
+      <div class="hook-line" id="hook-found"><span id="hook-c2">No</span><span id="hook-c3">connections</span><span id="hook-c4">found.</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const grey = "#cbbcd8";
+    const ink = "#352c48";
+    // Per-word blur-in, no translate (motion.md: titles).
+    const wordIn = (sel, at) =>
+      tl.fromTo(sel, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power4.out" }, at);
+    const groupOut = (sel, at) =>
+      tl.to(sel, { opacity: 0, filter: "blur(8px)", duration: 0.16, ease: "power2.in" }, at);
+
+    // Phone arrives slow and lands.
+    tl.fromTo("#hook-phone", { y: 24, scale: 0.97 }, { y: 0, scale: 1, duration: 0.6, ease: "expo.out" }, 0);
+
+    // Beat 1: 638 people. One hackathon.
+    tl.set(["#hook-b", "#hook-c"], { opacity: 0 }, 0);
+    // "638" is on screen from frame 0: it is the thumbnail.
+    tl.set(["#hook-a2", "#hook-a3", "#hook-a4"], { opacity: 0 }, 0);
+    wordIn("#hook-a2", 0.95);
+    wordIn("#hook-a3", 1.35);
+    wordIn("#hook-a4", 1.66);
+    groupOut("#hook-a", 2.12);
+
+    // Beat 2: Scroll. Tap. Follow. Scan. Each word lands in ink, then settles to grey.
+    tl.set("#hook-b", { opacity: 1 }, 2.25);
+    tl.set(["#hook-b1", "#hook-b2", "#hook-b3", "#hook-b4"], { opacity: 0 }, 0);
+    [["#hook-b1", 2.7], ["#hook-b2", 3.16], ["#hook-b3", 3.6], ["#hook-b4", 4.25]].forEach(([sel, at], i, all) => {
+      tl.fromTo(sel, { opacity: 0, filter: "blur(8px)", color: ink }, { opacity: 1, filter: "blur(0px)", duration: 0.14, ease: "power4.out" }, at);
+      if (all[i + 1]) tl.to(sel, { color: grey, duration: 0.12, ease: "none" }, all[i + 1][1]);
+    });
+    groupOut("#hook-b", 5.3);
+
+    // Beat 3: And LinkedIn still says: No connections found.
+    tl.set("#hook-c", { opacity: 1 }, 5.45);
+    tl.set(["#hook-c1", "#hook-c2", "#hook-c3", "#hook-c4"], { opacity: 0 }, 0);
+    wordIn("#hook-c1", 5.5);
+    wordIn("#hook-c2", 7.22);
+    wordIn("#hook-c3", 7.46);
+    wordIn("#hook-c4", 7.98);
+
+    // The phone pushes in on LinkedIn's dead end, then leaves as one move.
+    tl.to("#hook-phone", { scale: 1.12, y: -30, duration: 0.6, ease: "power2.inOut", transformOrigin: "50% 55%" }, 6.96);
+    tl.to("#hook-phone", { y: 260, scale: 0.86, opacity: 0, filter: "blur(14px)", duration: 0.34, ease: "power3.in" }, 8.46);
+    groupOut("#hook-c", 8.5);
+
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

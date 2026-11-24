@@ -1,0 +1,78 @@
+{
+  "id": "icp-tracekit",
+  "name": "Tracekit · production reliability",
+  "industries": [
+    {
+      "value": "Developer platforms & SaaS",
+      "confidence": 0.96,
+      "why": "Agent run tracing is the central product use case.",
+      "naics": "541511"
+    },
+    {
+      "value": "Platform engineering teams",
+      "confidence": 0.92,
+      "why": "The founder is seeking platform teams to pilot an observability toolkit."
+    }
+  ],
+  "sizes": [
+    {
+      "value": "51–200 employees",
+      "confidence": 0.91,
+      "why": "Growing engineering organizations have production reliability needs and a reachable buying team."
+    },
+    {
+      "value": "11–50 employees",
+      "confidence": 0.84,
+      "why": "Smaller software teams can adopt developer tools quickly."
+    }
+  ],
+  "titles": [
+    {
+      "value": "VP of Engineering / Head of Platform",
+      "confidence": 0.95,
+      "why": "Owns platform operations and engineering outcomes."
+    },
+    {
+      "value": "CTO / Director of Engineering",
+      "confidence": 0.92,
+      "why": "Leads developer tooling evaluation and infrastructure decisions."
+    },
+    {
+      "value": "Developer Experience Lead",
+      "confidence": 0.88,
+      "why": "Sponsors new developer tooling pilots."
+    }
+  ],
+  "triggers": [
+    {
+      "value": "Launching production AI agents",
+      "confidence": 0.93,
+      "why": "Production agent launches increase tracing and reliability needs."
+    },
+    {
+      "value": "New platform reliability roadmap",
+      "confidence": 0.91,
+      "why": "Signals a timely platform engineering conversation."
+    },
+    {
+      "value": "Hiring platform engineers",
+      "confidence": 0.87,
+      "why": "Suggests a funded infrastructure initiative."
+    }
+  ],
+  "board_verdict": [
+    {
+      "lens": "Customer",
+      "text": "Lead with faster agent failure diagnosis and safer production changes."
+    },
+    {
+      "lens": "Market",
+      "text": "Start with local platform engineering teams shipping AI agents."
+    },
+    {
+      "lens": "Execution",
+      "text": "Secure one platform-team pilot and one technical buyer conversation."
+    }
+  ],
+  "is_demo": true
+}

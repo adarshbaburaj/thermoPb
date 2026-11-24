@@ -1,0 +1,444 @@
+{
+  "cards": [
+    {
+      "id": "person-maya-chen",
+      "target_id": "person-maya-chen",
+      "company": "Kindred Labs",
+      "person": "Maya Chen",
+      "title": "VP of Engineering",
+      "tier": "A",
+      "fit": 98,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-sofia-ramirez",
+      "target_id": "person-sofia-ramirez",
+      "company": "Everwell Systems Lab",
+      "person": "Sofia Ramirez",
+      "title": "Head of Platform",
+      "tier": "A",
+      "fit": 96,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-james-okafor",
+      "target_id": "person-james-okafor",
+      "company": "Nestwell Cloud Lab",
+      "person": "James Okafor",
+      "title": "Co-founder & CTO",
+      "tier": "A",
+      "fit": 95,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "event_meet",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-claire-dubois",
+      "target_id": "person-claire-dubois",
+      "company": "Silverlight Compute Lab",
+      "person": "Claire Dubois",
+      "title": "Director of Engineering",
+      "tier": "A",
+      "fit": 94,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-daniel-wu",
+      "target_id": "person-daniel-wu",
+      "company": "Hearthstone Data Lab",
+      "person": "Daniel Wu",
+      "title": "Chief Technology Officer",
+      "tier": "A",
+      "fit": 93,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-aisha-patel",
+      "target_id": "person-aisha-patel",
+      "company": "Bloom Developer Lab",
+      "person": "Aisha Patel",
+      "title": "Founder & CTO",
+      "tier": "A",
+      "fit": 92,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "event_meet",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-theo-brooks",
+      "target_id": "person-theo-brooks",
+      "company": "Longview Infrastructure Lab",
+      "person": "Theo Brooks",
+      "title": "Head of Developer Experience",
+      "tier": "A",
+      "fit": 91,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-olivia-bennett",
+      "target_id": "person-olivia-bennett",
+      "company": "Serene Cloud Lab",
+      "person": "Olivia Bennett",
+      "title": "VP of Engineering",
+      "tier": "A",
+      "fit": 90,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-noah-kim",
+      "target_id": "person-noah-kim",
+      "company": "Tendwell Software Lab",
+      "person": "Noah Kim",
+      "title": "Director of Platform",
+      "tier": "B",
+      "fit": 89,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "event_meet",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-amara-johnson",
+      "target_id": "person-amara-johnson",
+      "company": "Goodroot Systems Lab",
+      "person": "Amara Johnson",
+      "title": "Engineering Director",
+      "tier": "B",
+      "fit": 88,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-lucas-martin",
+      "target_id": "person-lucas-martin",
+      "company": "Kinship Compute Lab",
+      "person": "Lucas Martin",
+      "title": "VP of Infrastructure",
+      "tier": "B",
+      "fit": 87,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "warm_intro",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-zara-ahmed",
+      "target_id": "person-zara-ahmed",
+      "company": "Juniper Developer Lab",
+      "person": "Zara Ahmed",
+      "title": "CTO",
+      "tier": "B",
+      "fit": 86,
+      "stage": "Matched",
+      "status": "Matched",
+      "route": "short_cold_email",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-ethan-park",
+      "target_id": "person-ethan-park",
+      "company": "Lumen Compute Lab",
+      "person": "Ethan Park",
+      "title": "Head of Engineering",
+      "tier": "B",
+      "fit": 85,
+      "stage": "Contacted",
+      "status": "Contacted",
+      "route": "short_cold_email",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-isabella-rossi",
+      "target_id": "person-isabella-rossi",
+      "company": "Willowbridge Systems Lab",
+      "person": "Isabella Rossi",
+      "title": "Director of Developer Experience",
+      "tier": "B",
+      "fit": 84,
+      "stage": "Contacted",
+      "status": "Contacted",
+      "route": "event_meet",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-owen-lewis",
+      "target_id": "person-owen-lewis",
+      "company": "Daybreak Developer Lab",
+      "person": "Owen Lewis",
+      "title": "Chief Product & Technology Officer",
+      "tier": "B",
+      "fit": 83,
+      "stage": "Contacted",
+      "status": "Contacted",
+      "route": "short_cold_email",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-mei-tan",
+      "target_id": "person-mei-tan",
+      "company": "Aster Infrastructure Lab",
+      "person": "Mei Tan",
+      "title": "Platform Engineering Lead",
+      "tier": "B",
+      "fit": 82,
+      "stage": "Contacted",
+      "status": "Contacted",
+      "route": "warm_intro",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-gabriel-silva",
+      "target_id": "person-gabriel-silva",
+      "company": "Harborwell Compute Lab",
+      "person": "Gabriel Silva",
+      "title": "VP of Engineering",
+      "tier": "B",
+      "fit": 80,
+      "stage": "Replied",
+      "status": "Replied",
+      "route": "short_cold_email",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-nina-kapoor",
+      "target_id": "person-nina-kapoor",
+      "company": "Gentlepath Systems Lab",
+      "person": "Nina Kapoor",
+      "title": "Head of Platform",
+      "tier": "C",
+      "fit": 78,
+      "stage": "Replied",
+      "status": "Replied",
+      "route": "short_cold_email",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-samir-das",
+      "target_id": "person-samir-das",
+      "company": "Newleaf Developer Lab",
+      "person": "Samir Das",
+      "title": "CTO",
+      "tier": "C",
+      "fit": 75,
+      "stage": "Meeting Booked",
+      "status": "Meeting Booked",
+      "route": "short_cold_email",
+      "actor": "agent",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "agent",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    },
+    {
+      "id": "person-lily-foster",
+      "target_id": "person-lily-foster",
+      "company": "Oakline Compute Lab",
+      "person": "Lily Foster",
+      "title": "Director of Infrastructure",
+      "tier": "C",
+      "fit": 71,
+      "stage": "Closed/Lost",
+      "status": "Closed/Lost",
+      "route": "short_cold_email",
+      "actor": "you",
+      "updated_at": "2026-11-24T18:00:00Z",
+      "audit_log": [
+        {
+          "action": "Added from discovery",
+          "actor": "you",
+          "ts": "2026-11-24T18:00:00Z"
+        }
+      ],
+      "is_demo": true
+    }
+  ]
+}

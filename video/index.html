@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      /* thermopb app palette: lavender ground, plum ink, light lavender accent. */
+      :root {
+        --ground: #f0e9f8;
+        --ink: #352c48;
+        --muted: #6b5c7c;
+        --accent: #d4b5f1;
+        --route: #8054aa;
+        --font-display: "Inter", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        font-family: var(--font-display);
+      }
+      #root-ground {
+        position: absolute;
+        inset: 0;
+        background: var(--ground);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="24.2"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div id="root-ground"></div>
+
+      <!-- Scenes -->
+      <div id="hook" class="clip" data-composition-id="hook" data-composition-src="compositions/hook.html" data-start="0" data-duration="8.8" data-track-index="0" data-track-kind="graphics"></div>
+      <div id="reveal" class="clip" data-composition-id="reveal" data-composition-src="compositions/reveal.html" data-start="8.8" data-duration="1.8" data-track-index="0" data-track-kind="graphics"></div>
+      <div id="options" class="clip" data-composition-id="options" data-composition-src="compositions/options.html" data-start="10.6" data-duration="8.8" data-track-index="0" data-track-kind="graphics"></div>
+      <div id="endcard" class="clip" data-composition-id="endcard" data-composition-src="compositions/endcard.html" data-start="19.4" data-duration="4.8" data-track-index="0" data-track-kind="graphics"></div>
+
+      <!-- Voiceover (ElevenLabs), split by sentence with breathing room between beats -->
+      <audio id="vo-a" class="clip" src="assets/audio/voiceover.mp3" data-start="0" data-duration="8.4" data-media-start="0" data-volume="1.8" data-track-index="2"></audio>
+      <audio id="vo-b" class="clip" src="assets/audio/voiceover.mp3" data-start="8.8" data-duration="1.8" data-media-start="8.4" data-volume="1.8" data-track-index="2"></audio>
+      <audio id="vo-c" class="clip" src="assets/audio/voiceover.mp3" data-start="10.8" data-duration="4.75" data-media-start="10.2" data-volume="1.8" data-track-index="2"></audio>
+      <audio id="vo-d" class="clip" src="assets/audio/voiceover.mp3" data-start="15.9" data-duration="3" data-media-start="14.95" data-volume="1.8" data-track-index="2"></audio>
+      <audio id="vo-e" class="clip" src="assets/audio/voiceover.mp3" data-start="19.6" data-duration="2.48" data-media-start="17.95" data-volume="1.8" data-track-index="2"></audio>
+
+      <!-- Music bed -->
+      <audio id="music" class="clip" src="assets/audio/music.wav" data-start="0" data-duration="24.2" data-volume="0.34" data-fade-in="0.3" data-fade-out="1.4" data-track-index="3"></audio>
+
+      <!-- Sound on visible actions: option switches, the click, and the two exits -->
+      <audio id="sfx-whoosh-1" class="clip" src="assets/audio/whoosh.mp3" data-start="8.5" data-duration="1.2" data-volume="0.72" data-track-index="4"></audio>
+      <audio id="sfx-click-1" class="clip" src="assets/audio/click.mp3" data-start="12.3" data-duration="0.5" data-volume="0.88" data-track-index="5"></audio>
+      <audio id="sfx-click-2" class="clip" src="assets/audio/click.mp3" data-start="13.06" data-duration="0.5" data-volume="1.12" data-track-index="5"></audio>
+      <audio id="sfx-click-3" class="clip" src="assets/audio/click.mp3" data-start="15.55" data-duration="0.5" data-volume="0.88" data-track-index="5"></audio>
+      <audio id="sfx-click-4" class="clip" src="assets/audio/click.mp3" data-start="16.55" data-duration="0.5" data-volume="0.88" data-track-index="5"></audio>
+      <audio id="sfx-click-5" class="clip" src="assets/audio/click.mp3" data-start="18.1" data-duration="0.5" data-volume="0.88" data-track-index="5"></audio>
+      <audio id="sfx-whoosh-2" class="clip" src="assets/audio/whoosh.mp3" data-start="19.05" data-duration="1.2" data-volume="0.72" data-track-index="4"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
