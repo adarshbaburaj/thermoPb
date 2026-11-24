@@ -43,3 +43,6 @@ blob-report/
 # HyperFrames working files (snapshots, check reports, media cache)
 .hyperframes/
 .media/
+
+# Original screen recordings (identical copies live in video/assets/footage/)
+/Screen_Recording_*.mp4
